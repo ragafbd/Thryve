@@ -7,7 +7,7 @@ export const mockData = {
   },
   about: {
     title: "About Thryve",
-    description: "Located in the heart of Faridabad, Thryve Coworking offers a vibrant community workspace designed to fuel productivity and collaboration. Our modern facility combines comfort, functionality, and affordability to create the perfect environment for your business to thrive.",
+    description: "Located in the heart of Faridabad, just 2 minutes away from Mathura Road and Neelam Chowk Metro Station, Thryve Coworking offers a vibrant community workspace designed to fuel productivity and collaboration. Our modern facility combines comfort, functionality, and affordability to create the perfect environment for your business to thrive.",
     stats: [
       { number: "200+", label: "Seats" },
       { number: "12 Hours", label: "Six Days a Week" },
