@@ -18,15 +18,14 @@ export const mockData = {
     { id: 1, name: "High-Speed WiFi", icon: "wifi" },
     { id: 2, name: "Meeting Rooms", icon: "users" },
     { id: 3, name: "Café & Refreshments", icon: "coffee" },
-    { id: 4, name: "Table Tennis", icon: "activity" },
-    { id: 5, name: "Foosball", icon: "gamepad2" },
-    { id: 6, name: "Spacious Washrooms", icon: "droplet" },
-    { id: 7, name: "24/7 Access", icon: "clock" },
-    { id: 8, name: "Printing Services", icon: "printer" },
-    { id: 9, name: "Air Conditioned", icon: "wind" },
-    { id: 10, name: "Power Backup", icon: "zap" },
-    { id: 11, name: "Parking Space", icon: "car" },
-    { id: 12, name: "Ergonomic Seating", icon: "armchair" }
+    { id: 4, name: "Table Tennis & Foosball", icon: "gamepad2" },
+    { id: 5, name: "Spacious Washrooms", icon: "droplet" },
+    { id: 6, name: "9 AM to 9 PM Access", icon: "clock" },
+    { id: 7, name: "Printing Services", icon: "printer" },
+    { id: 8, name: "Air Conditioned", icon: "wind" },
+    { id: 9, name: "Power Backup", icon: "zap" },
+    { id: 10, name: "Parking Space", icon: "car" },
+    { id: 11, name: "Ergonomic Seating", icon: "armchair" }
   ],
   pricing: [
     {
