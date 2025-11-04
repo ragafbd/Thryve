@@ -119,6 +119,16 @@ const HomePage = () => {
         <div className="section-container">
           <h2 className="section-title">{mockData.about.title}</h2>
           <p className="section-description">{mockData.about.description}</p>
+          
+          {/* About Images */}
+          <div className="about-images">
+            {mockData.about.images.map((image, index) => (
+              <div key={index} className="about-image-card">
+                <img src={image} alt={`Thryve Workspace ${index + 1}`} />
+              </div>
+            ))}
+          </div>
+
           <div className="about-stats">
             {mockData.about.stats.map((stat, index) => (
               <div key={index} className="stat-card">
