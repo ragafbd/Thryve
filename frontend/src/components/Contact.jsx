@@ -48,7 +48,7 @@ const Contact = () => {
             <div className="contact-item">
               <Mail size={24} style={{ color: 'var(--brand-primary)', flexShrink: 0 }} />
               <div>
-                <a href="mailto:info@thryvecoworking.com" className="link-text">info@thryvecoworking.com</a>
+                <a href="mailto:contact@thryvecoworking.in" className="link-text">contact@thryvecoworking.in</a>
               </div>
             </div>
 
