@@ -23,10 +23,10 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content">
           <h1 className="hero-title">WHERE IDEAS MEET INNOVATION</h1>
-          <p className="body-large" style={{ maxWidth: '25ch', marginTop: '24px', color: 'var(--text-primary)' }}>
+          <p className="hero-subtitle">
             Premium coworking space in Faridabad designed for entrepreneurs, startups, and professionals.
           </p>
-          <div className="hero-cta" style={{ display: 'flex', gap: '16px', marginTop: '32px', flexWrap: 'wrap' }}>
+          <div className="hero-cta">
             <button onClick={() => scrollToSection('contact')} className="btn-primary">
               GET STARTED <ArrowRight size={18} style={{ marginLeft: '8px' }} />
             </button>
