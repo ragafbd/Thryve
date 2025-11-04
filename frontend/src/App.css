@@ -360,7 +360,7 @@ body {
   letter-spacing: -0.04em;
   margin-bottom: 16px;
   animation: fadeInUp 1s ease 0.1s both;
-  text-shadow: 0 4px 30px rgba(255, 127, 50, 0.6);
+  text-shadow: 0 4px 30px rgba(255, 127, 50, 0.8), 0 0 60px rgba(255, 127, 50, 0.4);
   font-stretch: ultra-expanded;
 }
 
