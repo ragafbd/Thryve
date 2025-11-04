@@ -22,7 +22,7 @@ const Pricing = () => {
       description: 'Your own permanent desk in our collaborative workspace',
       features: [
         'Fixed dedicated desk',
-        'High-speed WiFi',
+        'High-speed WiFi and LAN',
         'Meeting room access',
         'Mail handling',
         'All amenities included'
@@ -35,6 +35,7 @@ const Pricing = () => {
       description: 'Fully furnished private office space for teams and businesses',
       features: [
         'Private lockable office',
+        'High-speed WiFi and LAN',
         'Customizable space',
         'Dedicated phone line',
         'Priority meeting rooms',
