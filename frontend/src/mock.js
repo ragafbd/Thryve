@@ -3,7 +3,8 @@ export const mockData = {
     title: "THRYVE COWORKING",
     subtitle: "Where Ideas Meet Innovation",
     description: "Premium coworking space in Faridabad designed for entrepreneurs, startups, and professionals who want to thrive.",
-    cta: "Get Started"
+    cta: "Get Started",
+    backgroundImage: "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxjb3dvcmtpbmclMjBzcGFjZXxlbnwwfHx8fDE3NjIyOTkwNDB8MA&ixlib=rb-4.1.0&q=85"
   },
   about: {
     title: "About Thryve",
