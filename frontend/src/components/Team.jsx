@@ -34,17 +34,17 @@ const Team = () => {
         <div className="team-image-grid">
           <div className="team-image-card">
             <img 
-              src="https://images.unsplash.com/photo-1680459575585-390ed5cfcae0?w=800&q=80" 
+              src="https://images.unsplash.com/photo-1659356576816-2f0a28e500f5?w=800&q=80" 
               alt="Thryve Team Collaboration"
               className="team-photo"
             />
             <div className="team-overlay">
-              <p className="body-medium">Collaboration at its best</p>
+              <p className="body-medium">Young entrepreneurs driving change</p>
             </div>
           </div>
           <div className="team-image-card">
             <img 
-              src="https://images.unsplash.com/photo-1622675363311-3e1904dc1885?w=800&q=80" 
+              src="https://images.unsplash.com/photo-1659356581728-d8631a98e08d?w=800&q=80" 
               alt="Thryve Team Meeting"
               className="team-photo"
             />
