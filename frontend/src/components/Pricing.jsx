@@ -1,0 +1,103 @@
+import React from 'react';
+import { Check, Star } from 'lucide-react';
+
+const Pricing = () => {
+  const plans = [
+    {
+      name: 'Hot Desk',
+      price: '5,500',
+      description: 'Flexible seating option perfect for freelancers and part-time workers',
+      features: [
+        'Flexible seating',
+        'High-speed WiFi',
+        'Access to amenities',
+        'Community events',
+        'Printing credits'
+      ],
+      popular: false
+    },
+    {
+      name: 'Dedicated Desk',
+      price: '6,000',
+      description: 'Your own permanent desk in our collaborative workspace',
+      features: [
+        'Fixed dedicated desk',
+        'High-speed WiFi',
+        'Meeting room access',
+        'Mail handling',
+        'All amenities included'
+      ],
+      popular: true
+    },
+    {
+      name: 'Private Office',
+      price: '39,000',
+      description: 'Fully furnished private office space for teams and businesses',
+      features: [
+        'Private lockable office',
+        'Customizable space',
+        'Dedicated phone line',
+        'Priority meeting rooms',
+        'Premium support'
+      ],
+      popular: false
+    }
+  ];
+
+  const scrollToContact = () => {
+    const element = document.getElementById('contact');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <section id="pricing" className="pricing-section">
+      <div className="container">
+        <h2 className="heading-2" style={{ textAlign: 'center', marginBottom: '16px' }}>
+          FLEXIBLE PRICING PLANS
+        </h2>
+        <p className="body-medium" style={{ textAlign: 'center', marginBottom: '48px', color: 'var(--text-secondary)' }}>
+          Choose the perfect plan for your needs
+        </p>
+
+        <div className="pricing-grid">
+          {plans.map((plan, index) => (
+            <div key={index} className={`pricing-card ${plan.popular ? 'popular' : ''}`}>
+              {plan.popular && (
+                <div className="popular-badge">
+                  <Star size={16} style={{ marginRight: '6px' }} />
+                  MOST POPULAR
+                </div>
+              )}
+              
+              <h3 className="heading-4" style={{ marginBottom: '12px' }}>{plan.name}</h3>
+              <p className="body-small" style={{ marginBottom: '24px', minHeight: '60px' }}>{plan.description}</p>
+              
+              <div className="price">
+                <span className="price-currency">₹</span>
+                <span className="price-amount">{plan.price}</span>
+                <span className="price-period">/month</span>
+              </div>
+
+              <ul className="features-list">
+                {plan.features.map((feature, idx) => (
+                  <li key={idx} className="feature-item">
+                    <Check size={18} style={{ color: 'var(--brand-primary)', marginRight: '8px', flexShrink: 0 }} />
+                    <span>{feature}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <button onClick={scrollToContact} className={plan.popular ? 'btn-primary' : 'btn-secondary'}>
+                GET STARTED
+              </button>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Pricing;
