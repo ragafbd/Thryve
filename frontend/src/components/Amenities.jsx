@@ -4,7 +4,8 @@ import { Wifi, Users, Coffee, Gamepad2, Droplets, Clock, Printer, Wind, Zap, Car
 const Amenities = () => {
   const amenities = [
     { icon: Wifi, title: 'High-Speed WiFi', description: 'Ultra-fast fiber internet' },
-    { icon: Users, title: 'Meeting Rooms', description: 'Fully equipped spaces' },
+    { icon: Users, title: 'Meeting Rooms', description: 'Fully equipped spaces to focus and collaborate' },
+    { icon: Video, title: 'Video Conferencing', description: 'Professional video call setup' },
     { icon: Coffee, title: 'Café & Refreshments', description: 'Complimentary tea & coffee' },
     { icon: Gamepad2, title: 'Table Tennis & Foosball', description: 'Fun recreation area' },
     { icon: Droplets, title: 'Spacious Washrooms', description: 'Clean & modern facilities' },
@@ -13,7 +14,8 @@ const Amenities = () => {
     { icon: Wind, title: 'Air Conditioned', description: 'Climate controlled' },
     { icon: Zap, title: 'Power Backup', description: 'Uninterrupted power' },
     { icon: Car, title: 'Parking Space', description: 'Ample parking available next door' },
-    { icon: Armchair, title: 'Ergonomic Seating', description: 'Comfortable workstations' }
+    { icon: Armchair, title: 'Ergonomic Seating', description: 'Comfortable workstations' },
+    { icon: MapPin, title: 'Prime Location', description: 'Proximity to Mathura Road and Metro Station' }
   ];
 
   return (
