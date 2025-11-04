@@ -112,18 +112,12 @@ const HomePage = () => {
           <h2 className="section-title">{mockData.about.title}</h2>
           <p className="section-description">{mockData.about.description}</p>
           <div className="about-stats">
-            <div className="stat-card">
-              <div className="stat-number">500+</div>
-              <div className="stat-label">Members</div>
-            </div>
-            <div className="stat-card">
-              <div className="stat-number">24/7</div>
-              <div className="stat-label">Access</div>
-            </div>
-            <div className="stat-card">
-              <div className="stat-number">100%</div>
-              <div className="stat-label">Value</div>
-            </div>
+            {mockData.about.stats.map((stat, index) => (
+              <div key={index} className="stat-card">
+                <div className="stat-number">{stat.number}</div>
+                <div className="stat-label">{stat.label}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
