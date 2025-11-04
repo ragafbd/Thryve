@@ -54,7 +54,7 @@ const Pricing = () => {
   return (
     <section id="pricing" className="pricing-section">
       <div className="container">
-        <h2 className="heading-2" style={{ textAlign: 'center', marginBottom: '16px' }}>
+        <h2 className="heading-2" style={{ textAlign: 'center', marginBottom: '16px', color: 'var(--brand-primary)' }}>
           FLEXIBLE PRICING PLANS
         </h2>
         <p className="body-medium" style={{ textAlign: 'center', marginBottom: '48px', color: 'var(--text-secondary)' }}>
