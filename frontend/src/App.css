@@ -176,9 +176,9 @@ body {
 }
 
 .btn-secondary {
-  background: transparent;
-  color: var(--brand-primary);
-  border: 1px solid var(--brand-primary);
+  background: var(--brand-secondary);
+  color: var(--neutral-white);
+  border: 2px solid var(--brand-secondary);
   border-radius: 10rem;
   padding: 1em 1.5em;
   font-family: 'Inter', Arial, sans-serif;
