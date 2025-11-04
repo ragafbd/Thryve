@@ -69,8 +69,6 @@ export const mockData = {
         "Customizable space",
         "Dedicated phone line",
         "Priority meeting rooms",
-        "24/7 access",
-        "Team collaboration tools",
         "Premium support"
       ],
       popular: false
