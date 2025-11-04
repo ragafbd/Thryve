@@ -29,7 +29,7 @@ const Hero = () => {
           </p>
           <div className="hero-cta">
             <button onClick={() => scrollToSection('contact')} className="btn-primary">
-              GET STARTED <ArrowRight size={18} style={{ marginLeft: '8px' }} />
+              GET STARTED
             </button>
             <button onClick={() => scrollToSection('pricing')} className="btn-secondary">
               VIEW PRICING
