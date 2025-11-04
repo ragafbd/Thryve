@@ -1,5 +1,6 @@
 export const mockData = {
   hero: {
+    greeting: "Hello Faridabad!",
     title: "THRYVE COWORKING",
     subtitle: "Where Ideas Meet Innovation",
     description: "Premium coworking space in Faridabad designed for entrepreneurs, startups, and professionals who want to thrive.",
