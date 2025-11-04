@@ -29,9 +29,6 @@ const Footer = () => {
           <div className="footer-column">
             <h4 className="heading-6" style={{ marginBottom: '16px' }}>Follow Us</h4>
             <div className="social-links">
-              <a href="https://Facebook.com/thryvecoworking" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Facebook">
-                <Facebook size={20} />
-              </a>
               <a href="https://instagram.com/thryve.coworking" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
