@@ -24,7 +24,7 @@ const About = () => {
 
           <div className="about-image">
             <img 
-              src="https://images.unsplash.com/photo-1606836576983-8b458e75221d?w=800&q=80" 
+              src="https://images.unsplash.com/photo-1556565681-306458ef93cd?w=800&q=80" 
               alt="Modern Workspace"
               className="workspace-image"
             />
