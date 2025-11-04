@@ -41,7 +41,7 @@ const Contact = () => {
               <MapPin size={24} style={{ color: 'var(--brand-primary)', flexShrink: 0 }} />
               <div>
                 <p className="body-medium">Plot No. 3, Next to Neelam Chowk Metro Station</p>
-                <p className="body-medium">18/3, Mathura Road, Faridabad</p>
+                <p className="body-medium">18/3, Mathura Road, Faridabad, Haryana - 121002</p>
               </div>
             </div>
 
