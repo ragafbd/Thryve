@@ -2,35 +2,37 @@
    THRYVE COWORKING - PREMIUM DESIGN SYSTEM
    ============================================ */
 
-/* CSS Variables - Design System Colors */
+/* CSS Variables - Thryve Brand Colors: Orange & Blue */
 :root {
   /* Backgrounds */
-  --bg-page: #1a1c1b;
-  --bg-card: #302f2c;
-  --bg-light: #dfddd6;
+  --bg-page: #0a0e1a;
+  --bg-card: #1a1f2e;
+  --bg-light: #f5f5f5;
   
   /* Text */
-  --text-primary: #d9fb06;
-  --text-secondary: #888680;
-  --text-muted: #302f2c;
-  --text-inverse: #1a1c1b;
+  --text-primary: #ffffff;
+  --text-secondary: #a0aec0;
+  --text-muted: #718096;
+  --text-inverse: #0a0e1a;
   
   /* Borders */
-  --border-light: rgba(63, 72, 22, 0.5);
-  --border-medium: #3f4816;
-  --border-strong: #888680;
+  --border-light: rgba(255, 127, 50, 0.2);
+  --border-medium: rgba(255, 127, 50, 0.4);
+  --border-strong: #ff7f32;
   
-  /* Brand Colors */
-  --brand-primary: #d9fb06;
-  --brand-hover: rgba(217, 251, 6, 0.8);
-  --brand-active: rgba(217, 251, 6, 0.6);
+  /* Brand Colors - Orange & Blue */
+  --brand-primary: #ff7f32;
+  --brand-primary-hover: #ff9554;
+  --brand-primary-active: #e66b1f;
+  --brand-secondary: #2563eb;
+  --brand-secondary-hover: #3b82f6;
+  --brand-secondary-active: #1d4ed8;
   
   /* Supporting Colors */
-  --secondary-olive: #3f4816;
-  --secondary-yellow: #f8d47a;
-  --secondary-blue: #0073e6;
-  --neutral-white: white;
-  --neutral-light: #dfddd6;
+  --accent-orange-light: #ffb380;
+  --accent-blue-light: #60a5fa;
+  --neutral-white: #ffffff;
+  --neutral-light: #f5f5f5;
 }
 
 /* Global Styles */
