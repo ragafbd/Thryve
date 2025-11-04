@@ -66,6 +66,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <p className="caption">© {currentYear} Thryve Coworking. All rights reserved.</p>
           <p className="caption" style={{ marginTop: '8px' }}>Made with <span style={{ color: 'var(--brand-primary)' }}>♥</span> by a young ambitious team</p>
+          <p className="caption" style={{ marginTop: '12px', fontSize: '0.7rem', opacity: 0.7 }}>* All images used on this website are for reference purposes only</p>
         </div>
       </div>
     </footer>
