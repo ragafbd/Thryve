@@ -303,8 +303,8 @@ const HomePage = () => {
                   required
                 />
               </div>
-              <Button type="submit" className="btn-primary full-width">
-                Send Message
+              <Button type="submit" className="btn-primary full-width" disabled={isSubmitting}>
+                {isSubmitting ? 'Sending...' : 'Send Message'}
               </Button>
             </form>
           </div>
