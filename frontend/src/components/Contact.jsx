@@ -64,7 +64,6 @@ const Contact = () => {
               <Clock size={24} style={{ color: 'var(--brand-primary)', flexShrink: 0 }} />
               <div>
                 <p className="body-medium">Mon - Sat: 9:00 AM - 9:00 PM</p>
-                <p className="body-small">(12 Hours/Day)</p>
               </div>
             </div>
 
