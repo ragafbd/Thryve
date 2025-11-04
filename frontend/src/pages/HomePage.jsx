@@ -203,7 +203,15 @@ const HomePage = () => {
               </div>
               <div className="contact-item">
                 <Phone size={24} className="contact-icon" />
-                <p>{mockData.contact.phone}</p>
+                <div>
+                  {Array.isArray(mockData.contact.phone) ? (
+                    mockData.contact.phone.map((number, index) => (
+                      <p key={index}>{number}</p>
+                    ))
+                  ) : (
+                    <p>{mockData.contact.phone}</p>
+                  )}
+                </div>
               </div>
               <div className="contact-item">
                 <Clock size={24} className="contact-icon" />
