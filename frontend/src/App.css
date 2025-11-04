@@ -637,7 +637,7 @@ body {
 .price-gst {
   font-size: 0.8rem;
   color: var(--text-secondary);
-  margin-top: 0px;
+  margin-top: -8px;
   font-style: italic;
 }
 
