@@ -13,7 +13,7 @@ const Hero = () => {
     <section className="hero-section">
       <div className="hero-background">
         <img 
-          src="https://images.pexels.com/photos/3153198/pexels-photo-3153198.jpeg?w=1920&q=80" 
+          src="https://images.unsplash.com/photo-1626187853752-898f59dc180e?w=1920&q=80" 
           alt="Thryve Coworking Space"
           className="hero-image"
         />
