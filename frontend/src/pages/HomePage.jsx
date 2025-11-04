@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '../components/ui/card';
 import { Input } from '../components/ui/input';
@@ -12,6 +13,9 @@ import {
   MapPin, Mail, Phone, CheckCircle2, Menu, X 
 } from 'lucide-react';
 import { mockData } from '../mock';
+
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+const API = `${BACKEND_URL}/api`;
 
 const iconMap = {
   wifi: Wifi,
