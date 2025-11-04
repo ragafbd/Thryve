@@ -511,7 +511,8 @@ body {
 .amenity-card:hover {
   transform: translateY(-5px);
   border-color: var(--brand-primary);
-  background: var(--border-medium);
+  background: var(--bg-card);
+  box-shadow: 0 4px 20px rgba(255, 127, 50, 0.2);
 }
 
 .amenity-icon {
