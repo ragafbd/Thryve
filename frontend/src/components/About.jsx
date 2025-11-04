@@ -4,7 +4,7 @@ import { MapPin, Clock, Sparkles } from 'lucide-react';
 const About = () => {
   const stats = [
     { number: '200+', label: 'Seats', icon: Sparkles },
-    { number: '12 Hours', label: 'Six Days a Week', icon: Clock },
+    { number: '9 AM - 9 PM', label: 'Six Days a Week', icon: Clock },
     { number: '100%', label: 'Value for Money', icon: Sparkles }
   ];
 
