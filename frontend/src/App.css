@@ -351,9 +351,21 @@ body {
   animation: fadeInUp 1s ease;
 }
 
+.hero-greeting {
+  font-weight: 900;
+  font-size: clamp(4rem, 10vw, 7rem);
+  line-height: 1;
+  color: var(--brand-primary);
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+  animation: fadeInUp 1s ease 0.1s both;
+  text-shadow: 0 4px 20px rgba(255, 127, 50, 0.4);
+}
+
 .hero-title {
   font-weight: 900;
-  font-size: clamp(3rem, 7vw, 5rem);
+  font-size: clamp(2.5rem, 6vw, 4rem);
   line-height: 1.1;
   color: var(--text-primary);
   text-transform: uppercase;
