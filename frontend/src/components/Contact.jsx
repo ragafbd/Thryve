@@ -3,7 +3,6 @@ import { MapPin, Mail, Phone, Clock, Send } from 'lucide-react';
 import { toast } from 'sonner';
 
 const Contact = () => {
-  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -21,8 +20,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Mock form submission
-    toast({
-      title: "Message Sent!",
+    toast.success("Message Sent!", {
       description: "We'll get back to you within 24 hours.",
     });
     setFormData({ name: '', email: '', phone: '', message: '' });
