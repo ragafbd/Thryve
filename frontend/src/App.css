@@ -259,11 +259,11 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--brand-hover);
+  color: var(--brand-primary);
 }
 
 .nav-link:active {
-  color: var(--brand-active);
+  color: var(--brand-primary-active);
 }
 
 .mobile-menu-toggle {
