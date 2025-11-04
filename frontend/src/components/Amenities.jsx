@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wifi, Users, Coffee, Gamepad2, Droplets, Clock, Printer, Wind, Zap, Car, Armchair, Shield } from 'lucide-react';
+import { Wifi, Users, Coffee, Gamepad2, Droplets, Clock, Printer, Wind, Zap, Car, Armchair, Video, MapPin } from 'lucide-react';
 
 const Amenities = () => {
   const amenities = [
