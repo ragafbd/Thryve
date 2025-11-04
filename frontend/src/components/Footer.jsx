@@ -27,24 +27,6 @@ const Footer = () => {
           </div>
 
           <div className="footer-column">
-            <h4 className="heading-6" style={{ marginBottom: '16px' }}>Contact Info</h4>
-            <ul className="footer-contact">
-              <li className="footer-contact-item">
-                <MapPin size={16} />
-                <span>Neelam Chowk Metro, Faridabad</span>
-              </li>
-              <li className="footer-contact-item">
-                <Mail size={16} />
-                <span>contact@thryvecoworking.in</span>
-              </li>
-              <li className="footer-contact-item">
-                <Phone size={16} />
-                <span>+91 98 106 99793</span>
-              </li>
-            </ul>
-          </div>
-
-          <div className="footer-column">
             <h4 className="heading-6" style={{ marginBottom: '16px' }}>Follow Us</h4>
             <div className="social-links">
               <a href="#" className="social-link" aria-label="Facebook">
@@ -52,9 +34,6 @@ const Footer = () => {
               </a>
               <a href="https://instagram.com/thryve.coworking" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
                 <Instagram size={20} />
-              </a>
-              <a href="#" className="social-link" aria-label="Twitter">
-                <Twitter size={20} />
               </a>
               <a href="#" className="social-link" aria-label="LinkedIn">
                 <Linkedin size={20} />
