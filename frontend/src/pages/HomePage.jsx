@@ -125,7 +125,7 @@ const HomePage = () => {
       {/* Amenities Section */}
       <section className="amenities-section" id="amenities">
         <div className="section-container">
-          <h2 className="section-title">World-Class Amenities</h2>
+          <h2 className="section-title">Best in Class Amenities</h2>
           <div className="amenities-grid">
             {mockData.amenities.map((amenity) => {
               const IconComponent = iconMap[amenity.icon];
