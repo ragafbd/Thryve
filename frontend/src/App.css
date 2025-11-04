@@ -270,6 +270,23 @@ body {
   background: var(--bg-dark);
 }
 
+.team-note {
+  text-align: center;
+  margin: 40px auto;
+  padding: 24px;
+  background: var(--bg-card);
+  border-radius: 16px;
+  border-left: 4px solid var(--brand-orange);
+  max-width: 800px;
+}
+
+.team-note p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
 .about-images {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
