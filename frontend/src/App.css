@@ -372,15 +372,17 @@ body {
   text-transform: uppercase;
   margin-bottom: 24px;
   animation: fadeInUp 1s ease 0.2s both;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
 }
 
 .hero-subtitle {
   font-size: clamp(1.1rem, 2vw, 1.5rem);
   line-height: 1.6;
-  color: var(--text-secondary);
+  color: var(--neutral-white);
   margin-top: 24px;
   max-width: 600px;
   animation: fadeInUp 1s ease 0.3s both;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.8);
 }
 
 .hero-cta {
