@@ -50,7 +50,7 @@ const Footer = () => {
               <a href="#" className="social-link" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="social-link" aria-label="Instagram">
+              <a href="https://instagram.com/thryve.coworking" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
               <a href="#" className="social-link" aria-label="Twitter">
