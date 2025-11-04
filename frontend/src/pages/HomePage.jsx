@@ -161,6 +161,7 @@ const HomePage = () => {
                     <span className="price-amount">{plan.price}</span>
                     <span className="price-period">/{plan.period}</span>
                   </div>
+                  <p className="gst-note">+ GST Extra</p>
                 </CardHeader>
                 <CardContent>
                   <ul className="plan-features">
