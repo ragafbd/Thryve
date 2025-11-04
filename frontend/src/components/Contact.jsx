@@ -70,7 +70,7 @@ const Contact = () => {
 
             <div className="contact-image">
               <img 
-                src="https://images.unsplash.com/photo-1594732832278-abd644401426?w=600&q=80" 
+                src="https://images.unsplash.com/photo-1659356576109-194b3398f080?w=600&q=80" 
                 alt="Workspace at Thryve"
                 className="location-image"
               />
