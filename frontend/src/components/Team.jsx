@@ -25,9 +25,9 @@ const Team = () => {
       <div className="container">
         <div className="team-header">
           <Users size={48} style={{ color: 'var(--brand-primary)', marginBottom: '16px' }} />
-          <h2 className="heading-2" style={{ marginBottom: '16px' }}>THE TEAM BEHIND THRYVE</h2>
-          <p className="body-large" style={{ maxWidth: '50ch', margin: '0 auto', lineHeight: '1.6' }}>
-            Thryve is powered by a <strong style={{ color: 'var(--brand-primary)' }}>young, ambitious, and passionate team</strong> dedicated to revolutionizing the coworking experience in Faridabad. We're entrepreneurs ourselves, and we understand what it takes to build something meaningful.
+          <h2 className="heading-2" style={{ marginBottom: '16px', color: 'var(--brand-primary)' }}>THE TEAM BEHIND THRYVE</h2>
+          <p className="body-large" style={{ maxWidth: '50ch', margin: '0 auto', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
+            Thryve is powered by a <strong style={{ color: 'var(--brand-secondary)' }}>young, ambitious, and passionate team</strong> dedicated to revolutionizing the coworking experience in Faridabad. We're entrepreneurs ourselves, and we understand what it takes to build something meaningful.
           </p>
         </div>
 
