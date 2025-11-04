@@ -13,6 +13,11 @@ export const mockData = {
       { number: "200+", label: "Seats" },
       { number: "12 Hours", label: "Six Days a Week" },
       { number: "100%", label: "Value for Money" }
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1431540015161-0bf868a2d407",
+      "https://images.unsplash.com/photo-1535957998253-26ae1ef29506",
+      "https://images.pexels.com/photos/33827305/pexels-photo-33827305.jpeg"
     ]
   },
   amenities: [
