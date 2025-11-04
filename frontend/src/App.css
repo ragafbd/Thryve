@@ -709,11 +709,6 @@ body {
     padding: 80px 0;
   }
 
-  .team-image-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
   .values-grid {
     grid-template-columns: 1fr;
   }
