@@ -116,6 +116,7 @@ const HomePage = () => {
           <div className="hero-overlay"></div>
         </div>
         <div className="hero-content">
+          <p className="hero-greeting">{mockData.hero.greeting}</p>
           <h1 className="hero-title">{mockData.hero.title}</h1>
           <p className="hero-subtitle">{mockData.hero.subtitle}</p>
           <p className="hero-description">{mockData.hero.description}</p>
