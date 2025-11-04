@@ -75,10 +75,13 @@ const Pricing = () => {
               <h3 className="heading-4" style={{ marginBottom: '12px' }}>{plan.name}</h3>
               <p className="body-small" style={{ marginBottom: '24px', minHeight: '60px' }}>{plan.description}</p>
               
-              <div className="price">
-                <span className="price-currency">₹</span>
-                <span className="price-amount">{plan.price}</span>
-                <span className="price-period">/month</span>
+              <div>
+                <div className="price">
+                  <span className="price-currency">₹</span>
+                  <span className="price-amount">{plan.price}</span>
+                  <span className="price-period">/month</span>
+                </div>
+                <p className="price-gst">plus GST</p>
               </div>
 
               <ul className="features-list">
