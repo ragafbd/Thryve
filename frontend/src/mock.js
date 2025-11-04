@@ -81,7 +81,7 @@ export const mockData = {
   contact: {
     address: "Plot No. 3, Next to Neelam Chowk Metro Station, 18/3, Mathura Road, Faridabad",
     email: "info@thryvecoworking.com",
-    phone: "+91 98765 43210",
+    phone: ["+91 98 106 99793", "+91 80 767 32167"],
     hours: "Mon - Sat: 9:00 AM - 9:00 PM (12 Hours/Day)"
   }
 };
