@@ -20,7 +20,7 @@ const Amenities = () => {
   return (
     <section id="amenities" className="amenities-section">
       <div className="container">
-        <h2 className="heading-2" style={{ textAlign: 'center', marginBottom: '48px' }}>
+        <h2 className="heading-2" style={{ textAlign: 'center', marginBottom: '48px', color: 'var(--brand-primary)' }}>
           BEST IN CLASS AMENITIES
         </h2>
 
