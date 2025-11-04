@@ -35,7 +35,7 @@ const Footer = () => {
               </li>
               <li className="footer-contact-item">
                 <Mail size={16} />
-                <span>info@thryvecoworking.com</span>
+                <span>contact@thryvecoworking.in</span>
               </li>
               <li className="footer-contact-item">
                 <Phone size={16} />
