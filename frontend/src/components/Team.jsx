@@ -31,29 +31,6 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="team-image-grid">
-          <div className="team-image-card">
-            <img 
-              src="https://images.unsplash.com/photo-1659356576816-2f0a28e500f5?w=800&q=80" 
-              alt="Thryve Team Collaboration"
-              className="team-photo"
-            />
-            <div className="team-overlay">
-              <p className="body-medium">Young entrepreneurs driving change</p>
-            </div>
-          </div>
-          <div className="team-image-card">
-            <img 
-              src="https://images.unsplash.com/photo-1659356581728-d8631a98e08d?w=800&q=80" 
-              alt="Thryve Team Meeting"
-              className="team-photo"
-            />
-            <div className="team-overlay">
-              <p className="body-medium">Building the future together</p>
-            </div>
-          </div>
-        </div>
-
         <div className="values-section">
           <h3 className="heading-3" style={{ textAlign: 'center', marginBottom: '48px', fontSize: '2rem' }}>OUR VALUES</h3>
           <div className="values-grid">
