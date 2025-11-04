@@ -13,11 +13,11 @@ const About = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2 className="heading-2">ABOUT THRYVE</h2>
-            <p className="body-medium" style={{ marginTop: '24px', lineHeight: '1.6' }}>
+            <h2 className="heading-2" style={{ color: 'var(--brand-primary)' }}>ABOUT THRYVE</h2>
+            <p className="body-medium" style={{ marginTop: '24px', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
               Located in the heart of Faridabad, just 2 minutes away from Mathura Road and Neelam Chowk Metro Station, Thryve Coworking offers a vibrant community workspace designed to fuel productivity and collaboration.
             </p>
-            <p className="body-medium" style={{ marginTop: '16px', lineHeight: '1.6' }}>
+            <p className="body-medium" style={{ marginTop: '16px', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
               Our modern facility combines comfort, functionality, and affordability to create the perfect environment for your business to thrive.
             </p>
           </div>
