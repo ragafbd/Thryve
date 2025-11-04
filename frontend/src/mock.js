@@ -51,7 +51,6 @@ export const mockData = {
       description: "Your own permanent desk in our collaborative workspace",
       features: [
         "Fixed dedicated desk",
-        "Personal storage locker",
         "High-speed WiFi",
         "Meeting room access",
         "Mail handling",
