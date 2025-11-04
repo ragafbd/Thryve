@@ -191,7 +191,7 @@ const HomePage = () => {
       <section className="pricing-section" id="pricing">
         <div className="section-container">
           <h2 className="section-title">Flexible Pricing Plans</h2>
-          <p className="section-subtitle">Choose the perfect plan for your needs</p>
+          <p className="section-subtitle">Exceptional Value - Choose the perfect plan for your needs</p>
           <div className="pricing-grid">
             {mockData.pricing.map((plan) => (
               <Card key={plan.id} className={`pricing-card ${plan.popular ? 'popular' : ''}`}>
