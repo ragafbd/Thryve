@@ -84,6 +84,28 @@ async def get_status_checks():
     
     return status_checks
 
+# Contact Form Endpoints
+@api_router.post("/contact", response_model=ContactSubmission)
+async def create_contact_submission(input: ContactSubmissionCreate):
+    try:
+        contact_dict = input.dict()
+        contact_obj = ContactSubmission(**contact_dict)
+        await db.contact_submissions.insert_one(contact_obj.dict())
+        logger.info(f"Contact submission created: {contact_obj.id}")
+        return contact_obj
+    except Exception as e:
+        logger.error(f"Error creating contact submission: {str(e)}")
+        raise
+
+@api_router.get("/contact", response_model=List[ContactSubmission])
+async def get_contact_submissions():
+    try:
+        submissions = await db.contact_submissions.find().sort("created_at", -1).to_list(1000)
+        return [ContactSubmission(**submission) for submission in submissions]
+    except Exception as e:
+        logger.error(f"Error fetching contact submissions: {str(e)}")
+        raise
+
 # Include the router in the main app
 app.include_router(api_router)
 
