@@ -40,7 +40,7 @@ const Amenities = () => {
 
         <div className="amenities-image-section">
           <img 
-            src="https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1200&q=80" 
+            src="https://images.pexels.com/photos/7688173/pexels-photo-7688173.jpeg?w=1200&q=80" 
             alt="Amenities at Thryve"
             className="amenities-showcase"
           />
