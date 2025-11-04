@@ -35,9 +35,6 @@ const Footer = () => {
               <a href="https://instagram.com/thryve.coworking" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="social-link" aria-label="LinkedIn">
-                <Linkedin size={20} />
-              </a>
             </div>
           </div>
         </div>
