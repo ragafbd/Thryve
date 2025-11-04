@@ -137,6 +137,8 @@ body {
 .hero-content {
   max-width: 1000px;
   text-align: left;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-title {
