@@ -141,6 +141,15 @@ body {
   z-index: 2;
 }
 
+.hero-greeting {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--brand-orange);
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
 .hero-title {
   font-size: clamp(3rem, 8vw, 7rem);
   font-weight: 900;
