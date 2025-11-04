@@ -58,6 +58,9 @@ const Pricing = () => {
         <h2 className="heading-2" style={{ textAlign: 'center', marginBottom: '16px', color: 'var(--brand-primary)' }}>
           FLEXIBLE PRICING PLANS
         </h2>
+        <p className="pricing-tagline" style={{ textAlign: 'center', marginBottom: '8px' }}>
+          Premium Coworking. Exceptional Value.
+        </p>
         <p className="body-medium" style={{ textAlign: 'center', marginBottom: '48px', color: 'var(--text-secondary)' }}>
           Choose the perfect plan for your needs
         </p>
