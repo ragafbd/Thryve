@@ -27,7 +27,7 @@ const Pricing = () => {
         'Mail handling',
         'All amenities included'
       ],
-      popular: true
+      popular: false
     },
     {
       name: 'Private Office',
