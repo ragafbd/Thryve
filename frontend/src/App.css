@@ -398,6 +398,13 @@ body {
   color: var(--text-muted);
 }
 
+.gst-note {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-top: 8px;
+  font-style: italic;
+}
+
 .plan-features {
   list-style: none;
   padding: 0;
