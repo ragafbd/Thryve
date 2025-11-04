@@ -6,15 +6,14 @@ const Amenities = () => {
     { icon: Wifi, title: 'High-Speed WiFi', description: 'Ultra-fast fiber internet' },
     { icon: Users, title: 'Meeting Rooms', description: 'Fully equipped spaces' },
     { icon: Coffee, title: 'Café & Refreshments', description: 'Complimentary tea & coffee' },
-    { icon: Gamepad2, title: 'Recreation Area', description: 'Table Tennis & Foosball' },
+    { icon: Gamepad2, title: 'Table Tennis & Foosball', description: 'Fun recreation area' },
     { icon: Droplets, title: 'Spacious Washrooms', description: 'Clean & modern facilities' },
     { icon: Clock, title: '9 AM to 9 PM Access', description: '12 hours daily, 6 days' },
     { icon: Printer, title: 'Printing Services', description: 'Print, scan & copy' },
     { icon: Wind, title: 'Air Conditioned', description: 'Climate controlled' },
     { icon: Zap, title: 'Power Backup', description: 'Uninterrupted power' },
     { icon: Car, title: 'Parking Space', description: 'Ample parking available' },
-    { icon: Armchair, title: 'Ergonomic Seating', description: 'Comfortable workstations' },
-    { icon: Shield, title: 'Secure Access', description: '24/7 security system' }
+    { icon: Armchair, title: 'Ergonomic Seating', description: 'Comfortable workstations' }
   ];
 
   return (
