@@ -85,6 +85,14 @@ const HomePage = () => {
 
       {/* Hero Section */}
       <section className="hero-section" id="hero">
+        <div className="hero-background">
+          <img 
+            src={mockData.hero.backgroundImage} 
+            alt="Thryve Coworking Space" 
+            className="hero-image"
+          />
+          <div className="hero-overlay"></div>
+        </div>
         <div className="hero-content">
           <h1 className="hero-title">{mockData.hero.title}</h1>
           <p className="hero-subtitle">{mockData.hero.subtitle}</p>
