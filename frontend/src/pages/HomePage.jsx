@@ -250,7 +250,7 @@ const HomePage = () => {
                   type="tel"
                   value={formData.phone}
                   onChange={handleInputChange}
-                  placeholder="+91 98765 43210"
+                  placeholder="+91 98 106 99793"
                   required
                 />
               </div>
