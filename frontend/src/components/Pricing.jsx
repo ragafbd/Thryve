@@ -5,7 +5,7 @@ const Pricing = () => {
   const plans = [
     {
       name: 'Hot Desk',
-      price: '5,500',
+      price: '6,000',
       description: 'Flexible seating option perfect for freelancers and part-time workers',
       features: [
         'Flexible seating',
@@ -18,7 +18,7 @@ const Pricing = () => {
     },
     {
       name: 'Dedicated Desk',
-      price: '6,000',
+      price: '6,500',
       description: 'Your own permanent desk in our collaborative workspace',
       features: [
         'Fixed dedicated desk',
@@ -31,7 +31,7 @@ const Pricing = () => {
     },
     {
       name: 'Private Office',
-      price: '39,000',
+      price: '42,000',
       description: 'Fully furnished private office space for teams and businesses',
       features: [
         'Private lockable office',
