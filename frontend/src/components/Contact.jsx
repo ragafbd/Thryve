@@ -73,19 +73,8 @@ const Contact = () => {
                   className="btn-primary"
                   style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '16px 32px', marginBottom: '16px' }}
                 >
-                  <Phone size={20} />
+                  <MessageCircle size={20} />
                   WhatsApp: +91 98 103 16151
-                </a>
-                
-                <a 
-                  href="https://wa.me/918076732167?text=Hi, I'm interested in Thryve Coworking space" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="btn-primary"
-                  style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '16px 32px', marginBottom: '16px' }}
-                >
-                  <Phone size={20} />
-                  WhatsApp: +91 80 767 32167
                 </a>
                 
                 <a 
