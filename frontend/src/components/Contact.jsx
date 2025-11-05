@@ -46,11 +46,11 @@ const Contact = () => {
                   href="https://www.google.com/maps/search/?api=1&query=First+Floor+Plot+No.+3+Next+to+Neelam+Chowk+Metro+Station+18/3+Mathura+Road+Faridabad+Haryana+121007" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="btn-secondary"
-                  style={{ marginTop: '12px', display: 'inline-flex', alignItems: 'center', padding: '8px 16px', fontSize: '0.8rem' }}
+                  className="link-text"
+                  style={{ marginTop: '8px', display: 'inline-flex', alignItems: 'center', fontSize: '0.85rem', textDecoration: 'underline' }}
                 >
-                  <MapPin size={14} style={{ marginRight: '6px' }} />
-                  Open in Google Maps
+                  <MapPin size={14} style={{ marginRight: '4px' }} />
+                  View on Google Maps
                 </a>
               </div>
             </div>
