@@ -76,7 +76,7 @@ const Pricing = () => {
               )}
               
               <h3 className="heading-4" style={{ marginBottom: '12px' }}>{plan.name}</h3>
-              <p className="body-small" style={{ marginBottom: '8px', minHeight: '60px', paddingBottom: '0px' }}>{plan.description}</p>
+              <p className="body-small" style={{ marginBottom: '8px', minHeight: '45px' }}>{plan.description}</p>
               
               <div style={{ marginTop: '-12px', paddingTop: '0px' }}>
                 <div className="price">
