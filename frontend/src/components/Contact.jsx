@@ -47,9 +47,9 @@ const Contact = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn-secondary"
-                  style={{ marginTop: '12px', display: 'inline-flex', alignItems: 'center', padding: '10px 20px', fontSize: '0.9rem' }}
+                  style={{ marginTop: '12px', display: 'inline-flex', alignItems: 'center', padding: '8px 16px', fontSize: '0.8rem' }}
                 >
-                  <MapPin size={16} style={{ marginRight: '8px' }} />
+                  <MapPin size={14} style={{ marginRight: '6px' }} />
                   Open in Google Maps
                 </a>
               </div>
