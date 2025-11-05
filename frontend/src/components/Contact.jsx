@@ -71,7 +71,7 @@ const Contact = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn-primary"
-                  style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '16px 32px', marginBottom: '16px' }}
+                  style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '16px 32px', marginBottom: '16px', textTransform: 'none' }}
                 >
                   <MessageCircle size={20} />
                   WhatsApp Us
@@ -80,7 +80,7 @@ const Contact = () => {
                 <a 
                   href="mailto:contact@thryvecoworking.in?subject=Inquiry about Thryve Coworking&body=Hi, I'm interested in learning more about your coworking space." 
                   className="btn-secondary"
-                  style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '16px 32px' }}
+                  style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none' }}
                 >
                   <Mail size={20} />
                   Email Us
