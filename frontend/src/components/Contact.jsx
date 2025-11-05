@@ -98,6 +98,19 @@ const Contact = () => {
               </div>
 
               <div className="form-group">
+                <label htmlFor="companyName" className="body-small">Company's Name</label>
+                <input
+                  type="text"
+                  id="companyName"
+                  name="companyName"
+                  value={formData.companyName}
+                  onChange={handleChange}
+                  className="form-input"
+                  placeholder="Your company name (optional)"
+                />
+              </div>
+
+              <div className="form-group">
                 <label htmlFor="email" className="body-small">Email</label>
                 <input
                   type="email"
