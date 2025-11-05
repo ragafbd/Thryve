@@ -21,7 +21,6 @@ const Hero = () => {
 
       <div className="container">
         <div className="hero-content">
-          <div className="hero-greeting">HELLO FARIDABAD</div>
           <h1 className="hero-title">WHERE IDEAS MEET INNOVATION</h1>
           <p className="hero-subtitle">
             Premium coworking space in Faridabad designed for entrepreneurs, startups, and professionals.
