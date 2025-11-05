@@ -43,14 +43,14 @@ const Contact = () => {
                 <p className="body-medium">First Floor, Plot No. 3, Next to Neelam Chowk Metro Station,</p>
                 <p className="body-medium">18/3, Mathura Road, Faridabad, Haryana - 121 007</p>
                 <a 
-                  href="https://www.google.com/maps/search/?api=1&query=First+Floor+Plot+No.+3+Next+to+Neelam+Chowk+Metro+Station+18/3+Mathura+Road+Faridabad+Haryana+121007" 
+                  href="https://maps.google.com/?q=28.4089,77.3178" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="link-text"
-                  style={{ marginTop: '8px', display: 'inline-flex', alignItems: 'center', fontSize: '0.85rem', textDecoration: 'underline' }}
+                  className="btn-secondary"
+                  style={{ marginTop: '10px', display: 'inline-flex', alignItems: 'center', padding: '6px 12px', fontSize: '0.75rem' }}
                 >
-                  <MapPin size={14} style={{ marginRight: '4px' }} />
-                  View on Google Maps
+                  <MapPin size={12} style={{ marginRight: '4px' }} />
+                  Google Maps
                 </a>
               </div>
             </div>
