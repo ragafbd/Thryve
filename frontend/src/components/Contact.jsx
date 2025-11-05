@@ -5,6 +5,7 @@ import { toast } from 'sonner';
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
+    companyName: '',
     email: '',
     phone: '',
     message: ''
