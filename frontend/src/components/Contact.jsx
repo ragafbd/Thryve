@@ -84,7 +84,7 @@ const Contact = () => {
           <div className="contact-form-wrapper">
             <form onSubmit={handleSubmit} className="contact-form">
               <div className="form-group">
-                <label htmlFor="name" className="body-small" style={{ color: 'var(--brand-primary)' }}>Name</label>
+                <label htmlFor="name" className="body-small" style={{ color: 'var(--brand-primary)', paddingLeft: '4px' }}>Name</label>
                 <input
                   type="text"
                   id="name"
@@ -98,7 +98,7 @@ const Contact = () => {
               </div>
 
               <div className="form-group">
-                <label htmlFor="companyName" className="body-small" style={{ color: 'var(--brand-primary)' }}>Company's Name</label>
+                <label htmlFor="companyName" className="body-small" style={{ color: 'var(--brand-primary)', paddingLeft: '4px' }}>Company's Name</label>
                 <input
                   type="text"
                   id="companyName"
@@ -111,7 +111,7 @@ const Contact = () => {
               </div>
 
               <div className="form-group">
-                <label htmlFor="email" className="body-small" style={{ color: 'var(--brand-primary)' }}>Email</label>
+                <label htmlFor="email" className="body-small" style={{ color: 'var(--brand-primary)', paddingLeft: '4px' }}>Email</label>
                 <input
                   type="email"
                   id="email"
@@ -125,7 +125,7 @@ const Contact = () => {
               </div>
 
               <div className="form-group">
-                <label htmlFor="phone" className="body-small" style={{ color: 'var(--brand-primary)' }}>Phone</label>
+                <label htmlFor="phone" className="body-small" style={{ color: 'var(--brand-primary)', paddingLeft: '4px' }}>Phone</label>
                 <input
                   type="tel"
                   id="phone"
@@ -139,7 +139,7 @@ const Contact = () => {
               </div>
 
               <div className="form-group">
-                <label htmlFor="message" className="body-small" style={{ color: 'var(--brand-primary)' }}>Message</label>
+                <label htmlFor="message" className="body-small" style={{ color: 'var(--brand-primary)', paddingLeft: '4px' }}>Message</label>
                 <textarea
                   id="message"
                   name="message"
