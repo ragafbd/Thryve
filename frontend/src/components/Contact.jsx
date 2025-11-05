@@ -78,7 +78,7 @@ const Contact = () => {
                 </a>
                 
                 <a 
-                  href="mailto:info@thryvecoworking.com?subject=Inquiry about Thryve Coworking&body=Hi, I'm interested in learning more about your coworking space." 
+                  href="mailto:contact@thryvecoworking.in?subject=Inquiry about Thryve Coworking&body=Hi, I'm interested in learning more about your coworking space." 
                   className="btn-secondary"
                   style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '16px 32px' }}
                 >
