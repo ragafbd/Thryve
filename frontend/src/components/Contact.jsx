@@ -60,21 +60,21 @@ const Contact = () => {
 
           <div className="contact-form-wrapper">
             <div className="contact-buttons-container">
-              <h3 className="heading-5" style={{ marginBottom: '24px', color: 'var(--text-primary)' }}>Get In Touch</h3>
+              <h3 className="heading-5" style={{ marginBottom: '24px', color: 'var(--text-primary)' }}>Get in touch and schedule a visit</h3>
               <p className="body-medium" style={{ marginBottom: '32px', color: 'var(--text-secondary)' }}>
                 Reach out to us directly via WhatsApp or Email
               </p>
               
               <div className="contact-buttons">
                 <a 
-                  href="https://wa.me/919810699793?text=Hi, I'm interested in Thryve Coworking space" 
+                  href="https://wa.me/919810316151?text=Hi, I'm interested in Thryve Coworking space and would like to schedule a visit" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn-primary"
                   style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '16px 32px', marginBottom: '16px' }}
                 >
                   <Phone size={20} />
-                  WhatsApp: +91 98 106 99793
+                  WhatsApp: +91 98 103 16151
                 </a>
                 
                 <a 
