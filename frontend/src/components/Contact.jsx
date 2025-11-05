@@ -47,7 +47,7 @@ const Contact = () => {
                   href="https://www.google.com/maps/place/98R7%2BGF+Faridabad,+Haryana" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="btn-secondary"
+                  className="btn-primary"
                   style={{ marginTop: '8px', display: 'inline-flex', alignItems: 'center', padding: '2px 8px', fontSize: '0.65rem', lineHeight: '1.2' }}
                 >
                   <MapPin size={10} style={{ marginRight: '2px' }} />
