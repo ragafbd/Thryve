@@ -69,7 +69,7 @@ const Contact = () => {
                 <a 
                   href="https://wa.me/919810316151?text=Hi, I'm interested in Thryve Coworking space and would like to schedule a visit" 
                   target="_blank" 
-                  rel="noopener noreferrer"
+                  rel="noopener"
                   className="btn-primary"
                   style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '16px 32px', marginBottom: '16px' }}
                 >
@@ -78,7 +78,7 @@ const Contact = () => {
                 </a>
                 
                 <a 
-                  href="mailto:info@thryvecoworking.com?subject=Inquiry about Thryve Coworking&body=Hi, I'm interested in learning more about your coworking space." 
+                  href="mailto:info@thryvecoworking.com?subject=Inquiry%20about%20Thryve%20Coworking&body=Hi,%20I'm%20interested%20in%20learning%20more%20about%20your%20coworking%20space." 
                   className="btn-secondary"
                   style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '16px 32px' }}
                 >
