@@ -48,10 +48,10 @@ const Contact = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn-secondary"
-                  style={{ marginTop: '10px', display: 'inline-flex', alignItems: 'center', padding: '3px 10px', fontSize: '0.7rem', lineHeight: '1' }}
+                  style={{ marginTop: '8px', display: 'inline-flex', alignItems: 'center', padding: '2px 8px', fontSize: '0.65rem', lineHeight: '1.2' }}
                 >
-                  <MapPin size={11} style={{ marginRight: '3px' }} />
-                  Google Maps
+                  <MapPin size={10} style={{ marginRight: '2px' }} />
+                  Maps
                 </a>
               </div>
             </div>
