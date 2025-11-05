@@ -1070,7 +1070,9 @@ html {
   opacity: 0;
   transform: translateY(20px);
   color: var(--brand-primary);
-  text-shadow: 0 0 30px rgba(255, 107, 53, 0.3);
+  text-shadow: 0 0 40px rgba(255, 107, 53, 0.8),
+               0 0 80px rgba(255, 107, 53, 0.6),
+               0 0 120px rgba(255, 107, 53, 0.4);
 }
 
 .intro-tagline {
