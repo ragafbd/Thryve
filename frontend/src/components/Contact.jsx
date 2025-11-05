@@ -74,7 +74,7 @@ const Contact = () => {
                   style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '16px 32px', marginBottom: '16px' }}
                 >
                   <MessageCircle size={20} />
-                  WhatsApp: +91 98 103 16151
+                  WhatsApp Us
                 </a>
                 
                 <a 
