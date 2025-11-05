@@ -39,8 +39,8 @@ const Footer = () => {
         <div className="footer-bottom">
           <p className="caption">© {currentYear} Thryve Coworking. All rights reserved.</p>
           <p className="caption" style={{ marginTop: '8px' }}>UDYAM Registration No.: UDYAM-HR-03-0133712</p>
-          <p className="caption" style={{ marginTop: '8px' }}>Made with <span className="throbbing-heart" style={{ color: 'var(--brand-primary)', fontSize: '1.5rem' }}>♥</span> by a young ambitious team</p>
-          <p className="caption" style={{ marginTop: '12px', fontSize: '0.7rem', opacity: 0.7 }}>* All images used on this website are for reference purposes only</p>
+          <p className="caption" style={{ marginTop: '8px' }}>Made with <span className="throbbing-heart" style={{ color: 'var(--brand-primary)', fontSize: '1.2rem' }}>♥</span> by a young ambitious team</p>
+          <p className="caption" style={{ marginTop: '12px', fontSize: '0.7rem', opacity: 0.7 }}>* Images used in this website will look better than used on this</p>
         </div>
       </div>
     </footer>
