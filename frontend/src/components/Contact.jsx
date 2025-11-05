@@ -3,29 +3,7 @@ import { MapPin, Mail, Phone, Clock, Send } from 'lucide-react';
 import { toast } from 'sonner';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    companyName: '',
-    email: '',
-    phone: '',
-    message: ''
-  });
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Mock form submission
-    toast.success("Message Sent!", {
-      description: "We'll get back to you within 24 hours.",
-    });
-    setFormData({ name: '', companyName: '', email: '', phone: '', message: '' });
-  };
+  // Form functionality removed - using direct WhatsApp and email links instead
 
   return (
     <section id="contact" className="contact-section">
