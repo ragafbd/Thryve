@@ -76,9 +76,9 @@ const Pricing = () => {
               )}
               
               <h3 className="heading-4" style={{ marginBottom: '12px' }}>{plan.name}</h3>
-              <p className="body-small" style={{ marginBottom: '0px', minHeight: '60px', paddingBottom: '0px' }}>{plan.description}</p>
+              <p className="body-small" style={{ marginBottom: '8px', minHeight: '60px' }}>{plan.description}</p>
               
-              <div>
+              <div style={{ marginTop: '0px' }}>
                 <div className="price">
                   <span className="price-currency" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>₹</span>
                   <span className="price-amount" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>{plan.price}</span>
