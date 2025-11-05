@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Mail, Phone, Clock } from 'lucide-react';
+import { MapPin, Mail, Phone, Clock, MessageCircle } from 'lucide-react';
 
 const Contact = () => {
   // Form functionality removed - using direct WhatsApp and email links instead
