@@ -10,9 +10,6 @@ const Footer = () => {
         <div className="footer-grid">
           <div className="footer-column">
             <h3 className="heading-5" style={{ marginBottom: '16px' }}>THRYVE COWORKING</h3>
-            <p className="body-small" style={{ maxWidth: '30ch', lineHeight: '1.5' }}>
-              Premium coworking space in Faridabad designed for entrepreneurs, startups, and professionals who want to thrive.
-            </p>
           </div>
 
           <div className="footer-column">
