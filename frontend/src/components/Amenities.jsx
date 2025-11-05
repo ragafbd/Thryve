@@ -15,7 +15,9 @@ const Amenities = () => {
     { icon: Zap, title: 'Power Backup', description: 'Uninterrupted power' },
     { icon: Car, title: 'Parking Space', description: 'Ample parking available next door' },
     { icon: Armchair, title: 'Ergonomic Seating', description: 'Comfortable workstations' },
-    { icon: MapPin, title: 'Prime Location', description: 'Proximity to Mathura Road and Metro Station' }
+    { icon: MapPin, title: 'Prime Location', description: 'Proximity to Mathura Road and Metro Station' },
+    { icon: Mail, title: 'Virtual Office Services with Mail Handling', description: 'Professional business address & mail management' },
+    { icon: Sparkles, title: 'Efficient Housekeeping', description: 'Clean and maintained workspace daily' }
   ];
 
   return (
