@@ -80,9 +80,9 @@ const Pricing = () => {
               
               <div>
                 <div className="price">
-                  <span className="price-currency">₹</span>
-                  <span className="price-amount">{plan.price}</span>
-                  <span className="price-period">/month</span>
+                  <span className="price-currency" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>₹</span>
+                  <span className="price-amount" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>{plan.price}</span>
+                  <span className="price-period" style={plan.popular ? { color: 'var(--brand-primary)' } : {}}>/month</span>
                 </div>
                 <p className="price-gst">plus GST</p>
               </div>
