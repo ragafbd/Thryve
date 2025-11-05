@@ -90,7 +90,7 @@ const Pricing = () => {
               <ul className="features-list">
                 {plan.features.map((feature, idx) => (
                   <li key={idx} className="feature-item">
-                    <Check size={18} style={{ color: 'var(--brand-primary)', marginRight: '8px', flexShrink: 0 }} />
+                    <Check size={18} style={{ color: 'var(--brand-primary)', marginRight: '8px', flexShrink: 0, marginTop: '3px' }} />
                     <span>{feature}</span>
                   </li>
                 ))}
