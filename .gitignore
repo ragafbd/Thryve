@@ -77,4 +77,99 @@ agenthub/agents/youtube/db
 .cache/
 
 # Mobile development
+<<<<<<< HEAD
 android-sdk/ 
+=======
+android-sdk/ -e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+>>>>>>> recovered-main

@@ -5,8 +5,13 @@ from motor.motor_asyncio import AsyncIOMotorClient
 import os
 import logging
 from pathlib import Path
+<<<<<<< HEAD
 from pydantic import BaseModel, Field, ConfigDict, EmailStr
 from typing import List, Optional
+=======
+from pydantic import BaseModel, Field, ConfigDict
+from typing import List
+>>>>>>> recovered-main
 import uuid
 from datetime import datetime, timezone
 
@@ -37,6 +42,7 @@ class StatusCheck(BaseModel):
 class StatusCheckCreate(BaseModel):
     client_name: str
 
+<<<<<<< HEAD
 # Contact Form Models
 class ContactSubmission(BaseModel):
     model_config = ConfigDict(extra="ignore")  # Ignore MongoDB's _id field
@@ -55,6 +61,8 @@ class ContactSubmissionCreate(BaseModel):
     phone: str
     message: str
 
+=======
+>>>>>>> recovered-main
 # Add your routes to the router instead of directly to app
 @api_router.get("/")
 async def root():
@@ -84,6 +92,7 @@ async def get_status_checks():
     
     return status_checks
 
+<<<<<<< HEAD
 # Contact Form Endpoints
 @api_router.post("/contact", response_model=ContactSubmission)
 async def create_contact_submission(input: ContactSubmissionCreate):
@@ -106,6 +115,8 @@ async def get_contact_submissions():
         logger.error(f"Error fetching contact submissions: {str(e)}")
         raise
 
+=======
+>>>>>>> recovered-main
 # Include the router in the main app
 app.include_router(api_router)
 
