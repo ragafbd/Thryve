@@ -1077,7 +1077,7 @@ html {
 
 .intro-tagline {
   font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-  color: var(--text-primary);
+  color: var(--brand-secondary);
   font-weight: 600;
   opacity: 0;
   animation: fadeInUp 0.8s ease-out 0.5s forwards;
