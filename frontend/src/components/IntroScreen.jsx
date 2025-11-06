@@ -54,7 +54,10 @@ const IntroScreen = ({ onComplete }) => {
             ))}
           </div>
         </h1>
-        <div className="intro-tagline">Welcome to Thryve Coworking</div>
+        <div className="intro-tagline">
+          <div>Welcome to</div>
+          <div>Thryve Coworking</div>
+        </div>
       </div>
     </div>
   );
