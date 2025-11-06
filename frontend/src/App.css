@@ -1076,13 +1076,14 @@ html {
 }
 
 .intro-tagline {
-  font-size: clamp(1rem, 2vw, 1.5rem);
-  color: var(--brand-secondary);
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  color: var(--text-primary);
   font-weight: 600;
   opacity: 0;
   animation: fadeInUp 0.8s ease-out 0.5s forwards;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
+  margin-top: 24px;
 }
 
 @keyframes fadeIn {
