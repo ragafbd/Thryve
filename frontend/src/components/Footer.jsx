@@ -20,6 +20,7 @@ const Footer = () => {
               <li><a href="#pricing" className="footer-link">Pricing</a></li>
               <li><a href="#team" className="footer-link">Our Team</a></li>
               <li><a href="#contact" className="footer-link">Contact</a></li>
+              <li><a href="/sitemap.xml" className="footer-link" target="_blank">Sitemap</a></li>
             </ul>
           </div>
 
