@@ -65,25 +65,30 @@ const Contact = () => {
                 Reach out to us directly via WhatsApp or Email
               </p>
               
-              <div className="contact-buttons" style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+              <div className="contact-buttons" style={{ display: 'flex', flexDirection: 'column', gap: '20px', width: '100%' }}>
                 <a 
                   href="https://wa.me/919810316151?text=Hi, I'm interested in Thryve Coworking space and would like to schedule a visit" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn-primary"
-                  style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none' }}
+                  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none', width: '100%', flexShrink: 0 }}
                 >
-                  <MessageCircle size={20} />
-                  WhatsApp Us
+                  <MessageCircle size={20} style={{ flexShrink: 0 }} />
+                  <span>WhatsApp Us</span>
                 </a>
                 
                 <a 
-                  href="mailto:contact@thryvecoworking.in?subject=Inquiry about Thryve Coworking&body=Hi, I'm interested in learning more about your coworking space." 
+                  href="mailto:contact@thryvecoworking.in?subject=Inquiry%20about%20Thryve%20Coworking&body=Hi,%20I'm%20interested%20in%20learning%20more%20about%20your%20coworking%20space." 
                   className="btn-secondary"
-                  style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none' }}
+                  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none', width: '100%', flexShrink: 0 }}
+                  onClick={(e) => {
+                    // Ensure direct email opening on iOS
+                    e.preventDefault();
+                    window.location.href = 'mailto:contact@thryvecoworking.in?subject=Inquiry%20about%20Thryve%20Coworking&body=Hi,%20I%27m%20interested%20in%20learning%20more%20about%20your%20coworking%20space.';
+                  }}
                 >
-                  <Mail size={20} />
-                  Email Us
+                  <Mail size={20} style={{ flexShrink: 0 }} />
+                  <span>Email Us</span>
                 </a>
               </div>
             </div>
