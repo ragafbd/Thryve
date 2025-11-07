@@ -1,0 +1,11 @@
+# robots.txt for Thryve Coworking
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://thryvecoworking.in/sitemap.xml
+
+# Disallow admin or private areas if any
+# User-agent: *
+# Disallow: /admin/
