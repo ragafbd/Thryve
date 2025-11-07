@@ -194,6 +194,9 @@ body {
   line-height: 1.1em;
   letter-spacing: -0.04em;
   text-transform: uppercase;
+  pointer-events: auto;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
 }
 
 .btn-secondary:hover {
