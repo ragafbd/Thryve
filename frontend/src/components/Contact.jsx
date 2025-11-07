@@ -77,15 +77,14 @@ const Contact = () => {
                   <span>WhatsApp Us</span>
                 </a>
                 
-                <button 
+                <a 
+                  href="mailto:contact@thryvecoworking.in"
                   className="btn-secondary"
-                  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none', width: '100%', flexShrink: 0 }}
-                  onClick={handleEmailClick}
-                  type="button"
+                  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none', width: '100%', flexShrink: 0, textDecoration: 'none' }}
                 >
                   <Mail size={20} style={{ flexShrink: 0 }} />
                   <span>Email Us</span>
-                </button>
+                </a>
               </div>
             </div>
           </div>
