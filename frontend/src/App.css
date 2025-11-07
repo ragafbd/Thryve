@@ -1126,3 +1126,14 @@ html {
     transform: translateY(0);
   }
 }
+
+@keyframes fadeInUpBright {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 0.95;
+    transform: translateY(0);
+  }
+}
