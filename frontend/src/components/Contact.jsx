@@ -83,15 +83,15 @@ const Contact = () => {
                   <span>WhatsApp Us</span>
                 </a>
                 
-                <a 
-                  href="mailto:contact@thryvecoworking.in?subject=Inquiry%20about%20Thryve%20Coworking&body=Hi,%20I'm%20interested%20in%20learning%20more%20about%20your%20coworking%20space." 
+                <button 
                   className="btn-secondary"
                   style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none', width: '100%', flexShrink: 0 }}
                   onClick={handleEmailClick}
+                  type="button"
                 >
                   <Mail size={20} style={{ flexShrink: 0 }} />
                   <span>Email Us</span>
-                </a>
+                </button>
               </div>
             </div>
           </div>
