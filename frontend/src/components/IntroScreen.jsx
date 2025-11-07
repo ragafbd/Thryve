@@ -5,9 +5,9 @@ const IntroScreen = ({ onComplete }) => {
   const [showText, setShowText] = useState(false);
 
   useEffect(() => {
-    const showTimer = setTimeout(() => setShowText(true), 300);
-    const fadeTimer = setTimeout(() => setFadeOut(true), 2500);
-    const completeTimer = setTimeout(() => onComplete(), 3000);
+    const showTimer = setTimeout(() => setShowText(true), 200);
+    const fadeTimer = setTimeout(() => setFadeOut(true), 4500);
+    const completeTimer = setTimeout(() => onComplete(), 5000);
 
     return () => {
       clearTimeout(showTimer);
@@ -16,10 +16,8 @@ const IntroScreen = ({ onComplete }) => {
     };
   }, [onComplete]);
 
-  const line1 = "Hello";
-  const line2 = "Faridabad!";
-  const letters1 = line1.split('');
-  const letters2 = line2.split('');
+  const fullText = "Hello Faridabad!";
+  const letters = fullText.split('');
 
   return (
     <div className={`intro-screen ${fadeOut ? 'fade-out' : ''}`}>
@@ -31,25 +29,14 @@ const IntroScreen = ({ onComplete }) => {
 
       <div className="intro-content">
         <h1 className={`intro-text ${showText ? 'show' : ''}`}>
-          <div className="intro-line">
-            {letters1.map((letter, index) => (
+          <div className="intro-line intro-line-single">
+            {letters.map((letter, index) => (
               <span 
                 key={index} 
                 className="intro-letter"
-                style={{ animationDelay: `${index * 0.05}s` }}
+                style={{ animationDelay: `${index * 0.08}s` }}
               >
-                {letter}
-              </span>
-            ))}
-          </div>
-          <div className="intro-line">
-            {letters2.map((letter, index) => (
-              <span 
-                key={`line2-${index}`} 
-                className="intro-letter"
-                style={{ animationDelay: `${(index + letters1.length) * 0.05}s` }}
-              >
-                {letter}
+                {letter === ' ' ? '\u00A0' : letter}
               </span>
             ))}
           </div>
