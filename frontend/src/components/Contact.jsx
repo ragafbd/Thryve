@@ -86,11 +86,7 @@ const Contact = () => {
                   href="mailto:contact@thryvecoworking.in?subject=Inquiry%20about%20Thryve%20Coworking&body=Hi,%20I'm%20interested%20in%20learning%20more%20about%20your%20coworking%20space." 
                   className="btn-secondary"
                   style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none', width: '100%', flexShrink: 0 }}
-                  onClick={(e) => {
-                    // Ensure direct email opening on iOS
-                    e.preventDefault();
-                    window.location.href = 'mailto:contact@thryvecoworking.in?subject=Inquiry%20about%20Thryve%20Coworking&body=Hi,%20I%27m%20interested%20in%20learning%20more%20about%20your%20coworking%20space.';
-                  }}
+                  onClick={handleEmailClick}
                 >
                   <Mail size={20} style={{ flexShrink: 0 }} />
                   <span>Email Us</span>
