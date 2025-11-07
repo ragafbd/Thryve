@@ -4,12 +4,6 @@ import { MapPin, Mail, Phone, Clock, MessageCircle } from 'lucide-react';
 const Contact = () => {
   // Form functionality removed - using direct WhatsApp and email links instead
 
-  const handleEmailClick = (e) => {
-    // Direct navigation without preventDefault for better iOS compatibility
-    const mailtoLink = 'mailto:contact@thryvecoworking.in?subject=Inquiry%20about%20Thryve%20Coworking&body=Hi,%20I%27m%20interested%20in%20learning%20more%20about%20your%20coworking%20space.';
-    window.location.href = mailtoLink;
-  };
-
   return (
     <section id="contact" className="contact-section">
       <div className="container">
