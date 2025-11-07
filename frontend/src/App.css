@@ -841,6 +841,15 @@ body {
   .contact-form-wrapper {
     padding: 24px;
   }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 14px 24px !important;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 /* Footer */
