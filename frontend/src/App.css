@@ -1087,14 +1087,14 @@ html {
 }
 
 .intro-tagline {
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(1.1rem, 2.2vw, 1.7rem);
   color: var(--brand-secondary);
-  font-weight: 700;
+  font-weight: 800;
   opacity: 0;
   animation: fadeInUpBright 0.6s ease-out 1.5s forwards;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.15em;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5), 0 0 20px rgba(37, 99, 235, 0.3);
 }
 
 .intro-line-single {
