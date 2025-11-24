@@ -82,10 +82,18 @@ const Pricing = () => {
               <p className="body-small" style={{ marginBottom: '8px', minHeight: '45px' }}>{plan.description}</p>
               
               <div style={{ marginTop: '-12px', paddingTop: '0px' }}>
+                <div style={{ textAlign: 'center', marginBottom: '8px' }}>
+                  <span style={{ textDecoration: 'line-through', color: 'var(--text-secondary)', fontSize: '1.2rem', opacity: 0.6 }}>
+                    ₹{plan.originalPrice}/-
+                  </span>
+                </div>
+                <p style={{ textAlign: 'center', fontSize: '0.85rem', color: 'var(--brand-primary)', fontWeight: 600, marginBottom: '4px' }}>
+                  Inaugural Offer Price
+                </p>
                 <div className="price">
                   <span className="price-currency" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>₹</span>
                   <span className="price-amount" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>{plan.price}</span>
-                  <span className="price-period" style={plan.popular ? { color: 'var(--brand-primary)' } : {}}>/month</span>
+                  <span className="price-period" style={plan.popular ? { color: 'var(--brand-primary)' } : {}}>/- per month</span>
                 </div>
                 <p className="price-gst">plus GST</p>
               </div>
