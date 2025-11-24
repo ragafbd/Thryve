@@ -6,6 +6,7 @@ const Amenities = () => {
     { icon: Wifi, title: 'High-Speed WiFi', description: 'Ultra-fast fiber internet' },
     { icon: Users, title: 'Meeting Rooms', description: 'Fully equipped spaces to focus and collaborate' },
     { icon: Video, title: 'Video Conferencing', description: 'Professional video call setup' },
+    { icon: Mic, title: 'Podcast & Recording Studio', description: 'Professional audio recording setup' },
     { icon: Coffee, title: 'Café & Refreshments', description: 'Complimentary tea & coffee' },
     { icon: Gamepad2, title: 'Table Tennis & Foosball', description: 'Fun recreation area' },
     { icon: Droplets, title: 'Spacious Washrooms', description: 'Clean & modern facilities' },
