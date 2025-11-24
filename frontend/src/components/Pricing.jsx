@@ -82,12 +82,12 @@ const Pricing = () => {
               <p className="body-small" style={{ marginBottom: '8px', minHeight: '45px' }}>{plan.description}</p>
               
               <div style={{ marginTop: '-12px', paddingTop: '0px' }}>
-                <div style={{ textAlign: 'center', marginBottom: '8px' }}>
-                  <span style={{ textDecoration: 'line-through', color: 'var(--text-secondary)', fontSize: '1.2rem', opacity: 0.6 }}>
-                    ₹{plan.originalPrice}/-
-                  </span>
+                <div className="price" style={{ marginBottom: '8px' }}>
+                  <span className="price-currency" style={{ textDecoration: 'line-through', color: 'var(--text-secondary)', opacity: 0.6 }}>₹</span>
+                  <span className="price-amount" style={{ textDecoration: 'line-through', color: 'var(--text-secondary)', opacity: 0.6 }}>{plan.originalPrice}</span>
+                  <span className="price-period" style={{ textDecoration: 'line-through', color: 'var(--text-secondary)', opacity: 0.6 }}>/-</span>
                 </div>
-                <p style={{ textAlign: 'center', fontSize: '0.85rem', color: 'var(--brand-primary)', fontWeight: 600, marginBottom: '4px' }}>
+                <p className="price-amount" style={{ textAlign: 'center', color: 'var(--brand-primary)', fontWeight: 600, marginBottom: '8px', fontSize: 'inherit' }}>
                   Inaugural Offer Price
                 </p>
                 <div className="price">
