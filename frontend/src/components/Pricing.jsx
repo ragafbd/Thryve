@@ -85,9 +85,9 @@ const Pricing = () => {
                 <div className="price" style={{ marginBottom: '8px' }}>
                   <span className="price-currency" style={{ textDecoration: 'line-through', color: 'var(--text-secondary)', opacity: 0.6 }}>₹</span>
                   <span className="price-amount" style={{ textDecoration: 'line-through', color: 'var(--text-secondary)', opacity: 0.6 }}>{plan.originalPrice}</span>
-                  <span className="price-period" style={{ textDecoration: 'line-through', color: 'var(--text-secondary)', opacity: 0.6 }}>/-</span>
+                  <span className="price-period" style={{ textDecoration: 'line-through', color: 'var(--text-secondary)', opacity: 0.6 }}>/- per month</span>
                 </div>
-                <p className="price-amount" style={{ textAlign: 'center', color: 'var(--brand-primary)', fontWeight: 600, marginBottom: '8px', fontSize: 'inherit' }}>
+                <p style={{ textAlign: 'center', color: 'var(--brand-primary)', fontWeight: 700, marginBottom: '8px', fontSize: '1.5rem' }}>
                   Inaugural Offer Price
                 </p>
                 <div className="price">
