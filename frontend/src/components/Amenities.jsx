@@ -46,7 +46,7 @@ const Amenities = () => {
         <div className="amenities-image-section">
           <img 
             src="https://images.pexels.com/photos/7688173/pexels-photo-7688173.jpeg?w=1200&q=80" 
-            alt="Amenities at Thryve"
+            alt="Premium coworking amenities including high-speed WiFi, meeting rooms, podcast studio, and recreational area at Thryve Coworking Faridabad near Mathura Road"
             className="amenities-showcase"
           />
         </div>
