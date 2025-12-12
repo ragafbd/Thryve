@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="hero-background">
         <img 
           src="https://images.unsplash.com/photo-1626187853752-898f59dc180e?w=1920&q=80" 
-          alt="Thryve Coworking Space"
+          alt="Modern coworking space in Faridabad near Neelam Chowk Metro Station with hot desks, dedicated desks, and collaborative workspaces at Thryve Coworking"
           className="hero-image"
         />
         <div className="hero-overlay"></div>
