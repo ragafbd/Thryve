@@ -26,7 +26,7 @@ const Hero = () => {
             Where Ideas Meet Innovation
           </p>
           <p className="hero-subtitle">
-            Modern workspace near Neelam Chowk Metro Station designed for entrepreneurs, startups, and professionals.
+            Flexible workspace and shared office space near Neelam Chowk Metro Station. Premium co-working space designed for entrepreneurs, startups, and professionals seeking commercial office for rent in Faridabad.
           </p>
           <div className="hero-cta">
             <button onClick={() => scrollToSection('contact')} className="btn-primary">
