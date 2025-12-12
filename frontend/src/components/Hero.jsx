@@ -21,9 +21,12 @@ const Hero = () => {
 
       <div className="container">
         <div className="hero-content">
-          <h1 className="hero-title">WHERE IDEAS MEET INNOVATION</h1>
+          <h1 className="hero-title">Premium Coworking Space in Faridabad</h1>
+          <p className="hero-subtitle" style={{ fontSize: '1.3rem', marginTop: '16px', fontWeight: 500 }}>
+            Where Ideas Meet Innovation
+          </p>
           <p className="hero-subtitle">
-            Premium coworking space in Faridabad designed for entrepreneurs, startups, and professionals.
+            Modern workspace near Neelam Chowk Metro Station designed for entrepreneurs, startups, and professionals.
           </p>
           <div className="hero-cta">
             <button onClick={() => scrollToSection('contact')} className="btn-primary">
