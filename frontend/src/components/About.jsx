@@ -25,7 +25,7 @@ const About = () => {
           <div className="about-image">
             <img 
               src="https://images.unsplash.com/photo-1556565681-306458ef93cd?w=800&q=80" 
-              alt="Modern Workspace"
+              alt="Professional coworking workspace with ergonomic furniture and modern amenities at Thryve Coworking Faridabad"
               className="workspace-image"
             />
           </div>
