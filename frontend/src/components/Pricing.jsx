@@ -7,7 +7,7 @@ const Pricing = () => {
       name: 'Hot Desk',
       originalPrice: '7,000',
       price: '6,000',
-      description: 'Flexible workspace with shared seating - ideal commercial office for rent solution for freelancers and part-time professionals',
+      description: 'Flexible workspace ideal for freelancers and part-time professionals',
       features: [
         'Flexible seating in co-working space',
         'High-speed WiFi',
