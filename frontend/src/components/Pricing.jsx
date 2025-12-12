@@ -7,11 +7,11 @@ const Pricing = () => {
       name: 'Hot Desk',
       originalPrice: '7,000',
       price: '6,000',
-      description: 'Flexible seating option perfect for freelancers and part-time workers',
+      description: 'Flexible workspace with shared seating - ideal commercial office for rent solution for freelancers and part-time professionals',
       features: [
-        'Flexible seating',
+        'Flexible seating in co-working space',
         'High-speed WiFi',
-        'Access to amenities',
+        'Access to all amenities',
         'Community events',
         'Printing credits'
       ],
@@ -21,12 +21,12 @@ const Pricing = () => {
       name: 'Dedicated Desk',
       originalPrice: '7,500',
       price: '6,500',
-      description: 'Your own permanent desk in our collaborative workspace',
+      description: 'Your own permanent desk in our collaborative shared office space near Neelam Chowk',
       features: [
-        'Fixed dedicated desk',
+        'Fixed dedicated workspace',
         'High-speed WiFi and LAN',
         'Meeting room access',
-        'Mail handling',
+        'Mail handling service',
         'All amenities included'
       ],
       popular: true
@@ -35,11 +35,11 @@ const Pricing = () => {
       name: 'Private Office',
       originalPrice: '48,000',
       price: '42,000',
-      description: 'Fully furnished private office space for teams and businesses',
+      description: 'Fully furnished private office space for rent - perfect commercial office solution for teams and businesses',
       features: [
-        'Private lockable office',
+        'Private lockable office space',
         'High-speed WiFi and LAN',
-        'Customizable space',
+        'Customizable workspace',
         'Dedicated phone line',
         'Priority meeting rooms',
         'Premium support'
