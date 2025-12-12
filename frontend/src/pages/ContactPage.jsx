@@ -26,7 +26,7 @@ const ContactPage = () => {
           <div className="container" style={{ textAlign: 'center' }}>
             <h1 className="heading-1" style={{ color: 'var(--brand-primary)', marginBottom: '16px' }}>Get in Touch with Thryve Coworking</h1>
             <p className="body-large" style={{ color: 'var(--text-secondary)', maxWidth: '800px', margin: '0 auto' }}>
-              Visit our modern coworking space in Faridabad, conveniently located 2 minutes from Neelam Chowk Metro Station. Schedule a free tour or reach out with any questions.
+              Visit our modern co-working space and flexible workspace in Faridabad. Our shared office space is conveniently located just 2 minutes from Neelam Chowk Metro Station. Looking for office space near Neelam Chowk or commercial office for rent? Schedule a free tour today!
             </p>
           </div>
         </section>
