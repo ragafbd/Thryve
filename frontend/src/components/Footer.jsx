@@ -15,11 +15,12 @@ const Footer = () => {
           <div className="footer-column">
             <h4 className="heading-6" style={{ marginBottom: '16px' }}>Quick Links</h4>
             <ul className="footer-links">
+              <li><a href="/" className="footer-link">Home</a></li>
               <li><a href="#about" className="footer-link">About Us</a></li>
-              <li><a href="#amenities" className="footer-link">Amenities</a></li>
-              <li><a href="#pricing" className="footer-link">Pricing</a></li>
+              <li><a href="/amenities" className="footer-link">Amenities</a></li>
+              <li><a href="/pricing" className="footer-link">Pricing Plans</a></li>
               <li><a href="#team" className="footer-link">Our Team</a></li>
-              <li><a href="#contact" className="footer-link">Contact</a></li>
+              <li><a href="/contact" className="footer-link">Contact Us</a></li>
               <li><a href="https://thryvecoworking.medium.com" className="footer-link" target="_blank" rel="noopener noreferrer">Blog</a></li>
               <li><a href="/sitemap.xml" className="footer-link" target="_blank" rel="noopener noreferrer">Sitemap</a></li>
             </ul>
