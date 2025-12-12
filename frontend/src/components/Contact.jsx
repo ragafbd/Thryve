@@ -43,8 +43,12 @@ const Contact = () => {
             <div className="contact-item">
               <Phone size={24} style={{ color: 'var(--brand-primary)', flexShrink: 0 }} />
               <div>
-                <p className="body-medium">+91 98 106 99793</p>
-                <p className="body-medium">+91 80 767 32167</p>
+                <p className="body-medium">
+                  <a href="tel:+919810699793" className="link-text" style={{ textDecoration: 'none', color: 'inherit' }}>+91 98 106 99793</a>
+                </p>
+                <p className="body-medium">
+                  <a href="tel:+918076732167" className="link-text" style={{ textDecoration: 'none', color: 'inherit' }}>+91 80 767 32167</a>
+                </p>
               </div>
             </div>
 
