@@ -15,10 +15,10 @@ const About = () => {
           <div className="about-text">
             <h2 className="heading-2" style={{ color: 'var(--brand-primary)' }}>ABOUT THRYVE</h2>
             <p className="body-medium" style={{ marginTop: '24px', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
-              Located in the heart of Faridabad, just 2 minutes away from Neelam Chowk Metro Station and Mathura Road, Thryve Coworking offers a vibrant community workspace designed to fuel productivity and collaboration.
+              Located in the heart of Faridabad, just 2 minutes away from Neelam Chowk Metro Station and Mathura Road, Thryve Coworking offers a vibrant shared office space and flexible workspace designed to fuel productivity and collaboration. Our co-working space is the ideal commercial office for rent for businesses of all sizes.
             </p>
             <p className="body-medium" style={{ marginTop: '16px', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
-              Our modern facility combines comfort, functionality, and affordability to create the perfect environment for your business to thrive.
+              Our modern facility combines comfort, functionality, and affordability to create the perfect environment for your business to thrive. Whether you need a hot desk, dedicated workspace, or private office space near Neelam Chowk, we have the right solution for you.
             </p>
           </div>
 
