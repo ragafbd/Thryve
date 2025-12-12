@@ -27,7 +27,7 @@ const PricingPage = () => {
           <div className="container" style={{ textAlign: 'center' }}>
             <h1 className="heading-1" style={{ color: 'var(--brand-primary)', marginBottom: '16px' }}>Flexible Coworking Space Pricing in Faridabad</h1>
             <p className="body-large" style={{ color: 'var(--text-secondary)', maxWidth: '800px', margin: '0 auto' }}>
-              Choose from hot desks, dedicated desks, or private offices. Special inaugural offers available for limited time near Neelam Chowk Metro Station.
+              Affordable commercial office for rent with flexible workspace options. Choose from hot desks, dedicated desks, or private office space near Neelam Chowk. Special inaugural offers on our shared office space for limited time.
             </p>
           </div>
         </section>
