@@ -27,7 +27,7 @@ const AmenitiesPage = () => {
           <div className="container" style={{ textAlign: 'center' }}>
             <h1 className="heading-1" style={{ color: 'var(--brand-primary)', marginBottom: '16px' }}>Premium Coworking Amenities</h1>
             <p className="body-large" style={{ color: 'var(--text-secondary)', maxWidth: '800px', margin: '0 auto' }}>
-              Experience world-class facilities designed for productivity and comfort. From high-speed internet to professional meeting rooms and a podcast studio, we've got everything you need to succeed.
+              Experience world-class facilities at our flexible workspace and shared office space in Faridabad. From high-speed internet to professional meeting rooms and a podcast studio, our co-working space offers everything you need for success. Discover why businesses choose our commercial office for rent near Neelam Chowk.
             </p>
           </div>
         </section>
