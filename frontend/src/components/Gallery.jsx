@@ -7,6 +7,12 @@ const Gallery = () => {
       src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/vltztax0_WhatsApp%20Image%202026-01-02%20at%201.43.58%20PM.jpeg',
       title: 'Conference Room',
       alt: 'Professional conference room at Thryve Coworking Faridabad with ergonomic chairs, large meeting table, and modern decor'
+    },
+    {
+      id: 2,
+      src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/ou5u7ka7_WhatsApp%20Image%202026-01-02%20at%2011.07.30%20AM%20%281%29.jpeg',
+      title: 'Ergonomic Seating',
+      alt: 'Comfortable ergonomic seating area at Thryve Coworking Faridabad with modern chairs and collaborative workspace setup'
     }
   ];
 
