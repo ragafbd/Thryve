@@ -19,6 +19,12 @@ const Gallery = () => {
       src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/fh4km1rt_WhatsApp%20Image%202026-01-02%20at%2011.07.30%20AM%20%283%29.jpeg',
       title: '6 Seater Cabin',
       alt: '6 seater private cabin workspace at Thryve Coworking Faridabad featuring ergonomic chairs, wooden desks, and glass partitions for team collaboration'
+    },
+    {
+      id: 4,
+      src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/7g3lwvja_WhatsApp%20Image%202026-01-02%20at%2011.07.30%20AM%20%284%29.jpeg',
+      title: 'Break Out Zone',
+      alt: 'Relaxing break out zone at Thryve Coworking Faridabad with vibrant lounge seating, modern decor, and collaborative space for informal meetings'
     }
   ];
 
