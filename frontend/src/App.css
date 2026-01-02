@@ -453,6 +453,7 @@ body {
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
+  border-radius: 12px;
 }
 
 .gallery-item:hover .gallery-image {
