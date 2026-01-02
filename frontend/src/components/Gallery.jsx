@@ -93,6 +93,8 @@ const Gallery = () => {
                       ? { objectFit: 'contain', backgroundColor: '#1a1c1b' } 
                       : image.title === 'Cafetaria & Open Terrace'
                       ? { objectPosition: '85% center' }
+                      : image.title === 'Ultra Fast & Stable Internet'
+                      ? { objectFit: 'contain', backgroundColor: '#1a1c1b' }
                       : {}
                   }
                 />
