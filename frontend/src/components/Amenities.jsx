@@ -47,7 +47,7 @@ const Amenities = () => {
           <img 
             src="https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/80zjt8s0_WhatsApp%20Image%202026-01-02%20at%2011.07.30%20AM.jpeg" 
             alt="Thryve Coworking branded signage and entrance at our premium flexible workspace in Faridabad, located near Neelam Chowk Metro Station on Mathura Road"
-            style={{ width: '100%', height: '400px', objectFit: 'cover', borderRadius: '12px' }}
+            style={{ width: '100%', height: '400px', objectFit: 'cover', objectPosition: 'center 35%', borderRadius: '12px' }}
           />
         </div>
       </div>
