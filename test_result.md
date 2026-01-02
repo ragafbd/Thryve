@@ -200,3 +200,5 @@ test_plan:
 agent_communication:
   - agent: "main"
     message: "Implemented gallery separation: Created GalleryPreview.jsx with 4 images and 'View Full Gallery' button on homepage. Created GalleryPage.jsx for /gallery route with all 11 images. Fixed email button by changing from <a> to <button> with onClick handler using window.open fallback for better iOS/mobile compatibility. Please test: 1) Homepage shows only 4 gallery images 2) 'View Full Gallery' button navigates to /gallery 3) Full gallery page shows all 11 images 4) Email button click triggers mailto. Note: Email button has been problematic on mobile - requires real device testing."
+  - agent: "testing"
+    message: "TESTING COMPLETED: ✅ Gallery Preview (4 images), ✅ Full Gallery Page (11 images), ✅ View Full Gallery Navigation, ✅ Email Button Click, ✅ Footer Gallery Link. ❌ CRITICAL ISSUE: Gallery link missing from header navigation on non-homepage pages (Contact, Amenities, Pricing). Header only shows Home, Amenities, Pricing, Contact - Gallery link is missing. This needs to be added to Header.jsx for non-homepage navigation."
