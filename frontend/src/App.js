@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import PricingPage from './pages/PricingPage';
 import AmenitiesPage from './pages/AmenitiesPage';
 import ContactPage from './pages/ContactPage';
+import GalleryPage from './pages/GalleryPage';
 import IntroScreen from './components/IntroScreen';
 import { Toaster } from './components/ui/sonner';
 
@@ -29,6 +30,7 @@ function AppContent() {
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/amenities" element={<AmenitiesPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
       </Routes>
       <Toaster />
     </>
