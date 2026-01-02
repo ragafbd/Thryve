@@ -185,11 +185,11 @@ frontend:
 
   - task: "Gallery Link in Header"
     implemented: true
-    working: false
+    working: true
     file: "/app/frontend/src/components/Header.jsx"
-    stuck_count: 1
+    stuck_count: 0
     priority: "medium"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
@@ -197,6 +197,9 @@ frontend:
       - working: false
         agent: "testing"
         comment: "❌ FAILED: Gallery link missing from header navigation on non-homepage pages (Contact, Amenities, Pricing). Header only shows: Home, Amenities, Pricing, Contact. Gallery scroll button works on homepage but Gallery navigation link missing on other pages. Header.jsx needs Gallery link added to non-homepage navigation."
+      - working: true
+        agent: "main"
+        comment: "✅ FIXED: Added Gallery link to non-homepage navigation in Header.jsx. Verified via screenshot that Gallery link now appears in header on Contact page and navigates correctly to /gallery."
 
 metadata:
   created_by: "main_agent"
