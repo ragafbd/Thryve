@@ -81,14 +81,29 @@ const Contact = () => {
                   <span>WhatsApp Us</span>
                 </a>
                 
-                <a 
-                  href="mailto:contact@thryvecoworking.in"
+                <button 
+                  type="button"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const email = 'contact@thryvecoworking.in';
+                    const mailtoLink = `mailto:${email}`;
+                    
+                    // Try multiple methods for maximum iOS/mobile compatibility
+                    // Method 1: Direct window.open (works better on some iOS versions)
+                    const mailWindow = window.open(mailtoLink, '_self');
+                    
+                    // Method 2: Fallback to location.href if window.open fails
+                    if (!mailWindow || mailWindow.closed || typeof mailWindow.closed === 'undefined') {
+                      window.location.href = mailtoLink;
+                    }
+                  }}
                   className="btn-secondary"
-                  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none', width: '100%', flexShrink: 0, textDecoration: 'none' }}
+                  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none', width: '100%', flexShrink: 0, textDecoration: 'none', border: '2px solid var(--brand-secondary)' }}
                 >
                   <Mail size={20} style={{ flexShrink: 0 }} />
                   <span>Email Us</span>
-                </a>
+                </button>
               </div>
             </div>
           </div>
