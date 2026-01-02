@@ -34,7 +34,7 @@ const Gallery = () => {
                   src={image.src} 
                   alt={image.alt}
                   className="gallery-image"
-                  style={image.title === 'Ergonomic Seating' ? { objectFit: 'contain', backgroundColor: '#1a1c1b' } : {}}
+                  style={image.title === 'Ergonomic Seating' ? { transform: 'scale(0.85)' } : {}}
                 />
                 <div className="gallery-overlay">
                   <h3 className="gallery-title">{image.title}</h3>
