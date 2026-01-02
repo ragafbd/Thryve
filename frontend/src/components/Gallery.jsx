@@ -80,7 +80,7 @@ const Gallery = () => {
                     image.title === 'Gender Specific Washrooms' 
                       ? { objectFit: 'contain', backgroundColor: '#1a1c1b' } 
                       : image.title === 'Cafetaria & Open Terrace'
-                      ? { objectPosition: '70% center' }
+                      ? { objectPosition: '85% center' }
                       : {}
                   }
                 />
