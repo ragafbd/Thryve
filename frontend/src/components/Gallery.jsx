@@ -43,6 +43,12 @@ const Gallery = () => {
       src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/0rjmdnbe_WhatsApp%20Image%202026-01-02%20at%2011.07.31%20AM%20%283%29.jpeg',
       title: 'Automatic Soap Dispensers & Hand Dryers',
       alt: 'Modern automatic soap dispensers and hand dryers at Thryve Coworking Faridabad ensuring touch-free hygiene and convenience'
+    },
+    {
+      id: 8,
+      src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/4srpnttr_WhatsApp%20Image%202026-01-02%20at%202.17.29%20PM.jpeg',
+      title: 'Complimentary Tea & Coffee',
+      alt: 'Complimentary tea and coffee station at Thryve Coworking Faridabad with Nescafe machine, microwave, and water dispenser for members'
     }
   ];
 
