@@ -28,7 +28,7 @@ const Gallery = () => {
     },
     {
       id: 5,
-      src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/wrn99w24_WhatsApp%20Image%202026-01-02%20at%2011.07.31%20AM%20%281%29.jpeg',
+      src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/1wgfcbuf_WhatsApp%20Image%202026-01-02%20at%202.21.53%20PM.jpeg',
       title: 'Gender Specific Washrooms',
       alt: 'Clean and modern gender specific washrooms at Thryve Coworking Faridabad with premium fixtures and contemporary design'
     },
