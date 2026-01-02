@@ -101,3 +101,102 @@
 #====================================================================================================
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
+
+user_problem_statement: "Thryve Coworking website fine-tuning - Move gallery to dedicated page and fix email button"
+
+frontend:
+  - task: "Gallery Preview on Homepage"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/GalleryPreview.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Created GalleryPreview.jsx component showing 4 images with 'View Full Gallery' button"
+
+  - task: "Full Gallery Page"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/GalleryPage.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Created dedicated /gallery page with all 11 images, proper SEO meta tags"
+
+  - task: "View Full Gallery Navigation"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/GalleryPreview.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Button navigates from homepage to /gallery page using React Router Link"
+
+  - task: "Email Button Functionality"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/Contact.jsx"
+    stuck_count: 2
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: false
+        agent: "user"
+        comment: "User reported email button not working on mobile (iOS), needs long press or doesn't trigger"
+      - working: "NA"
+        agent: "main"
+        comment: "Changed from <a> tag to <button> with onClick handler using window.open with fallback to window.location.href for better iOS compatibility"
+
+  - task: "Gallery Link in Footer"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/Footer.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added Gallery link to Quick Links section in footer"
+
+  - task: "Gallery Link in Header"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/Header.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Gallery link should be visible in header navigation"
+
+metadata:
+  created_by: "main_agent"
+  version: "1.0"
+  test_sequence: 1
+  run_ui: true
+
+test_plan:
+  current_focus:
+    - "Gallery Preview on Homepage"
+    - "Full Gallery Page"
+    - "View Full Gallery Navigation"
+    - "Email Button Functionality"
+  stuck_tasks:
+    - "Email Button Functionality"
+  test_all: true
+  test_priority: "high_first"
+
+agent_communication:
+  - agent: "main"
+    message: "Implemented gallery separation: Created GalleryPreview.jsx with 4 images and 'View Full Gallery' button on homepage. Created GalleryPage.jsx for /gallery route with all 11 images. Fixed email button by changing from <a> to <button> with onClick handler using window.open fallback for better iOS/mobile compatibility. Please test: 1) Homepage shows only 4 gallery images 2) 'View Full Gallery' button navigates to /gallery 3) Full gallery page shows all 11 images 4) Email button click triggers mailto. Note: Email button has been problematic on mobile - requires real device testing."
