@@ -61,6 +61,12 @@ const Gallery = () => {
       src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/6te0mkiz_WhatsApp%20Image%202026-01-02%20at%202.30.56%20PM.jpeg',
       title: 'Power Backup',
       alt: 'Reliable power backup system at Thryve Coworking Faridabad ensuring uninterrupted work with backup generators and continuous electricity supply'
+    },
+    {
+      id: 11,
+      src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/aox23sk7_WhatsApp%20Image%202026-01-02%20at%202.38.11%20PM.jpeg',
+      title: 'Ultra Fast & Stable Internet',
+      alt: 'High-speed fiber internet infrastructure at Thryve Coworking Faridabad with organized network setup ensuring ultra-fast and stable connectivity for seamless work'
     }
   ];
 
