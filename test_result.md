@@ -206,13 +206,9 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Gallery Preview on Homepage"
-    - "Full Gallery Page"
-    - "View Full Gallery Navigation"
-    - "Email Button Functionality"
-  stuck_tasks:
-    - "Email Button Functionality"
-  test_all: true
+    - "Gallery Link in Header"
+  stuck_tasks: []
+  test_all: false
   test_priority: "high_first"
 
 agent_communication:
