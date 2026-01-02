@@ -12,8 +12,8 @@ const Hero = () => {
     <section className="hero-section">
       <div className="hero-background">
         <img 
-          src="https://images.unsplash.com/photo-1626187853752-898f59dc180e?w=1920&q=80" 
-          alt="Modern coworking space in Faridabad near Neelam Chowk Metro Station with hot desks, dedicated desks, and collaborative workspaces at Thryve Coworking"
+          src="https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/fxybzhhg_WhatsApp%20Image%202026-01-02%20at%2011.07.30%20AM%20%284%29.jpeg" 
+          alt="Thryve Coworking space in Faridabad featuring modern lounge area with vibrant seating, dedicated workstations, and industrial design near Neelam Chowk Metro Station"
           className="hero-image"
         />
         <div className="hero-overlay"></div>
