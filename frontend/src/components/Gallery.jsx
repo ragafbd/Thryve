@@ -58,6 +58,7 @@ const Gallery = () => {
                   src={image.src} 
                   alt={image.alt}
                   className="gallery-image"
+                  style={image.title === 'Gender Specific Washrooms' ? { objectFit: 'contain', backgroundColor: '#1a1c1b' } : {}}
                 />
                 <div className="gallery-overlay">
                   <h3 className="gallery-title">{image.title}</h3>
