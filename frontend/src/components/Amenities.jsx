@@ -45,8 +45,8 @@ const Amenities = () => {
 
         <div className="amenities-image-section">
           <img 
-            src="https://images.pexels.com/photos/7688173/pexels-photo-7688173.jpeg?w=1200&q=80" 
-            alt="Premium coworking amenities including high-speed WiFi, meeting rooms, podcast studio, and recreational area at Thryve Coworking Faridabad near Mathura Road"
+            src="https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/80zjt8s0_WhatsApp%20Image%202026-01-02%20at%2011.07.30%20AM.jpeg" 
+            alt="Thryve Coworking branded signage and entrance at our premium flexible workspace in Faridabad, located near Neelam Chowk Metro Station on Mathura Road"
             className="amenities-showcase"
           />
         </div>
