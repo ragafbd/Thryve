@@ -25,6 +25,12 @@ const Gallery = () => {
       src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/7g3lwvja_WhatsApp%20Image%202026-01-02%20at%2011.07.30%20AM%20%284%29.jpeg',
       title: 'Break Out Zone',
       alt: 'Relaxing break out zone at Thryve Coworking Faridabad with vibrant lounge seating, modern decor, and collaborative space for informal meetings'
+    },
+    {
+      id: 5,
+      src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/wrn99w24_WhatsApp%20Image%202026-01-02%20at%2011.07.31%20AM%20%281%29.jpeg',
+      title: 'Gender Specific Washrooms',
+      alt: 'Clean and modern gender specific washrooms at Thryve Coworking Faridabad with premium fixtures and contemporary design'
     }
   ];
 
