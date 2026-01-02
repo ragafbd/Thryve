@@ -49,6 +49,12 @@ const Gallery = () => {
       src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/4srpnttr_WhatsApp%20Image%202026-01-02%20at%202.17.29%20PM.jpeg',
       title: 'Complimentary Tea & Coffee',
       alt: 'Complimentary tea and coffee station at Thryve Coworking Faridabad with Nescafe machine, microwave, and water dispenser for members'
+    },
+    {
+      id: 9,
+      src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/ah3ga2xb_WhatsApp%20Image%202026-01-02%20at%202.21.52%20PM.jpeg',
+      title: 'Cafetaria & Open Terrace',
+      alt: 'Beautiful outdoor cafetaria and open terrace at Thryve Coworking Faridabad with greenery, Thryve branding, and relaxing workspace for fresh air and informal meetings'
     }
   ];
 
