@@ -54,6 +54,7 @@ const Header = () => {
               <Link to="/" className="nav-link" onClick={() => handleNavigation('/')}>Home</Link>
               <Link to="/amenities" className="nav-link" onClick={() => handleNavigation('/amenities')}>Amenities</Link>
               <Link to="/pricing" className="nav-link" onClick={() => handleNavigation('/pricing')}>Pricing</Link>
+              <Link to="/gallery" className="nav-link" onClick={() => handleNavigation('/gallery')}>Gallery</Link>
               <Link to="/contact" className="nav-link" onClick={() => handleNavigation('/contact')}>Contact</Link>
             </>
           )}
