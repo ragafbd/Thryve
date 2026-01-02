@@ -24,8 +24,8 @@ const About = () => {
 
           <div className="about-image">
             <img 
-              src="https://images.unsplash.com/photo-1556565681-306458ef93cd?w=800&q=80" 
-              alt="Professional coworking workspace with ergonomic furniture and modern amenities at Thryve Coworking Faridabad"
+              src="https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/6dav11o1_WhatsApp%20Image%202026-01-02%20at%2011.07.30%20AM%20%283%29.jpeg" 
+              alt="Private meeting room at Thryve Coworking Faridabad with ergonomic chairs, wooden conference table, and glass walls for professional business meetings"
               className="workspace-image"
             />
           </div>
