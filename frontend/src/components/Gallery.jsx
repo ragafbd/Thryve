@@ -55,6 +55,12 @@ const Gallery = () => {
       src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/ah3ga2xb_WhatsApp%20Image%202026-01-02%20at%202.21.52%20PM.jpeg',
       title: 'Cafetaria & Open Terrace',
       alt: 'Beautiful outdoor cafetaria and open terrace at Thryve Coworking Faridabad with greenery, Thryve branding, and relaxing workspace for fresh air and informal meetings'
+    },
+    {
+      id: 10,
+      src: 'https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/6te0mkiz_WhatsApp%20Image%202026-01-02%20at%202.30.56%20PM.jpeg',
+      title: 'Power Backup',
+      alt: 'Reliable power backup system at Thryve Coworking Faridabad ensuring uninterrupted work with backup generators and continuous electricity supply'
     }
   ];
 
