@@ -80,7 +80,7 @@ const Pricing = () => {
 
         <div className="pricing-grid">
           {plans.map((plan, index) => (
-            <div key={index} className={`pricing-card ${plan.popular ? 'popular' : ''}`}>
+            <div key={index} className={`pricing-card ${plan.popular ? 'popular' : ''} ${plan.highlighted ? 'popular' : ''}`}>
               {plan.popular && (
                 <div className="popular-badge">
                   <Star size={16} style={{ marginRight: '6px' }} />
@@ -93,9 +93,9 @@ const Pricing = () => {
               
               <div style={{ marginBottom: '24px' }}>
                 <div className="price">
-                  <span className="price-currency" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>₹</span>
-                  <span className="price-amount" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>{plan.price}</span>
-                  <span className="price-period" style={plan.popular ? { color: 'var(--brand-primary)' } : {}}>/- per month</span>
+                  <span className="price-currency" style={(plan.popular || plan.highlighted) ? { color: 'var(--brand-secondary)' } : {}}>₹</span>
+                  <span className="price-amount" style={(plan.popular || plan.highlighted) ? { color: 'var(--brand-secondary)' } : {}}>{plan.price}</span>
+                  <span className="price-period" style={(plan.popular || plan.highlighted) ? { color: 'var(--brand-primary)' } : {}}>/- per month</span>
                 </div>
                 <p className="price-gst">plus GST</p>
               </div>
@@ -109,7 +109,7 @@ const Pricing = () => {
                 ))}
               </ul>
 
-              <button onClick={scrollToContact} className={plan.popular ? 'btn-primary' : 'btn-secondary'}>
+              <button onClick={scrollToContact} className={(plan.popular || plan.highlighted) ? 'btn-primary' : 'btn-secondary'}>
                 GET STARTED
               </button>
             </div>
