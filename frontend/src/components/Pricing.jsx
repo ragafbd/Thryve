@@ -89,7 +89,7 @@ const Pricing = () => {
               )}
               
               <h3 className="heading-4" style={{ marginBottom: '12px' }}>{plan.name}</h3>
-              <p className="body-small" style={{ marginBottom: '16px', minHeight: '60px' }}>{plan.description}</p>
+              <p className="body-small" style={{ marginBottom: '16px', minHeight: '75px' }}>{plan.description}</p>
               
               <div style={{ marginBottom: '24px' }}>
                 <div className="price">
