@@ -31,7 +31,7 @@ const Pricing = () => {
     {
       name: 'Private Cabin',
       price: '48,000',
-      description: 'Fully furnished private office space for rent - perfect commercial office solution for teams and businesses',
+      description: 'Fully furnished private office space - perfect solution for small teams and businesses',
       features: [
         'Private lockable office space',
         'High-speed WiFi and LAN',
