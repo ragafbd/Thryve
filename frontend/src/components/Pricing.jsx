@@ -5,7 +5,6 @@ const Pricing = () => {
   const plans = [
     {
       name: 'Hot Desk',
-      originalPrice: '7,000',
       price: '6,000',
       description: 'Flexible workspace ideal for freelancers and part-time professionals',
       features: [
@@ -19,7 +18,6 @@ const Pricing = () => {
     },
     {
       name: 'Dedicated Desk',
-      originalPrice: '7,500',
       price: '6,500',
       description: 'Your own permanent desk in our collaborative shared office space near Neelam Chowk',
       features: [
@@ -32,9 +30,8 @@ const Pricing = () => {
       popular: true
     },
     {
-      name: 'Private Office',
-      originalPrice: '48,000',
-      price: '42,000',
+      name: 'Private Cabin',
+      price: '48,000',
       description: 'Fully furnished private office space for rent - perfect commercial office solution for teams and businesses',
       features: [
         'Private lockable office space',
@@ -79,17 +76,9 @@ const Pricing = () => {
               )}
               
               <h3 className="heading-4" style={{ marginBottom: '12px' }}>{plan.name}</h3>
-              <p className="body-small" style={{ marginBottom: '8px', minHeight: '45px' }}>{plan.description}</p>
+              <p className="body-small" style={{ marginBottom: '16px', minHeight: '45px' }}>{plan.description}</p>
               
-              <div style={{ marginTop: '-12px', paddingTop: '0px' }}>
-                <div className="price" style={{ marginBottom: '8px' }}>
-                  <span className="price-currency" style={{ textDecoration: 'line-through', color: 'var(--text-secondary)', opacity: 0.6 }}>₹</span>
-                  <span className="price-amount" style={{ textDecoration: 'line-through', color: 'var(--text-secondary)', opacity: 0.6 }}>{plan.originalPrice}</span>
-                  <span className="price-period" style={{ textDecoration: 'line-through', color: 'var(--text-secondary)', opacity: 0.6 }}>/- per month</span>
-                </div>
-                <p style={{ textAlign: 'center', color: 'var(--brand-primary)', fontWeight: 700, marginBottom: '8px', fontSize: '1.5rem' }}>
-                  Inaugural Offer Price
-                </p>
+              <div style={{ marginBottom: '24px' }}>
                 <div className="price">
                   <span className="price-currency" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>₹</span>
                   <span className="price-amount" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>{plan.price}</span>
