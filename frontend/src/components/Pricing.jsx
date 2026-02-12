@@ -11,7 +11,6 @@ const Pricing = () => {
         'Flexible seating in co-working space',
         'High-speed WiFi',
         'Access to all amenities',
-        'Community events',
         'Printing credits'
       ],
       popular: false
