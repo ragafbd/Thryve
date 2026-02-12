@@ -4,6 +4,19 @@ import { Check, Star } from 'lucide-react';
 const Pricing = () => {
   const plans = [
     {
+      name: 'Virtual Office',
+      price: '1,500',
+      description: 'Professional business address and mail handling for remote businesses',
+      features: [
+        'Prestigious business address',
+        'Mail & courier handling',
+        'GST registration support',
+        'Business registration address',
+        'Call answering service'
+      ],
+      popular: false
+    },
+    {
       name: 'Hot Desk',
       price: '6,000',
       description: 'Flexible workspace ideal for freelancers and part-time professionals',
