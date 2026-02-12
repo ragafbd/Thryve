@@ -50,7 +50,6 @@ const Pricing = () => {
         'Private lockable office space',
         'High-speed WiFi and LAN',
         'Customizable workspace',
-        'Dedicated phone line',
         'Priority meeting rooms',
         'Premium support'
       ],
