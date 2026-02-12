@@ -21,7 +21,7 @@ const Contact = () => {
                 <p className="body-medium">First Floor, Plot No. 3, Next to Neelam Chowk Metro Station,</p>
                 <p className="body-medium">18/3, Mathura Road, Faridabad, Haryana - 121 007</p>
                 <a 
-                  href="https://www.google.com/maps/place/98X7+C4+Faridabad,+Haryana" 
+                  href="https://maps.google.com/maps?q=98X7%2BC4+Faridabad,+Haryana" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn-primary"
