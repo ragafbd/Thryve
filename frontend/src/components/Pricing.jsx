@@ -12,7 +12,9 @@ const Pricing = () => {
         'Mail & courier handling',
         'GST registration support',
         'Business registration address',
-        'Call answering service'
+        'Call answering service',
+        '1 complimentary day pass',
+        '1 hour meeting room credit'
       ],
       popular: false
     },
