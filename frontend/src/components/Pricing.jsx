@@ -53,7 +53,8 @@ const Pricing = () => {
         '1 complimentary day pass',
         '1 hour meeting room credit'
       ],
-      popular: false
+      popular: false,
+      highlighted: true
     }
   ];
 
