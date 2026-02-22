@@ -19,7 +19,7 @@ const Contact = () => {
               <MapPin size={24} style={{ color: 'var(--brand-primary)', flexShrink: 0 }} />
               <div>
                 <p className="body-medium">First Floor, Plot No. 3, Next to Neelam Chowk Metro Station,</p>
-                <p className="body-medium">18/3, Mathura Road, Faridabad, Haryana - 121 007</p>
+                <p className="body-medium">18/1, Mathura Road, Faridabad, Haryana - 121 007</p>
                 <a 
                   href="https://maps.app.goo.gl/VVp8T7UnAwGSdAem8" 
                   target="_blank" 
