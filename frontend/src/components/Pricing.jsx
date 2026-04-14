@@ -105,41 +105,44 @@ const Pricing = () => {
         </p>
 
         <div className="pricing-grid">
-          {plans.map((plan, index) => (
-            <div key={index} className={`pricing-card ${plan.popular ? 'popular' : ''}`}>
-              {plan.popular && (
-                <div className="popular-badge">
-                  <Star size={16} style={{ marginRight: '6px' }} />
-                  MOST POPULAR
+          {plans.map((plan, index) => {
+            const isOrange = index % 2 === 0;
+            return (
+              <div key={index} className={`pricing-card ${isOrange ? 'card-orange' : 'card-blue'}`}>
+                {plan.popular && (
+                  <div className="popular-badge">
+                    <Star size={16} style={{ marginRight: '6px' }} />
+                    MOST POPULAR
+                  </div>
+                )}
+                
+                <h3 className="heading-4" style={{ marginBottom: '12px' }}>{plan.name}</h3>
+                <p className="body-small" style={{ marginBottom: '8px', minHeight: '45px' }}>{plan.description}</p>
+                
+                <div style={{ marginTop: '-12px', paddingTop: '0px' }}>
+                  <div className="price">
+                    <span className="price-currency">₹</span>
+                    <span className="price-amount">{plan.price}</span>
+                    <span className="price-period">{plan.name === 'Day Pass' ? '/day' : '/month'}</span>
+                  </div>
+                  <p className="price-gst">plus GST</p>
                 </div>
-              )}
-              
-              <h3 className="heading-4" style={{ marginBottom: '12px' }}>{plan.name}</h3>
-              <p className="body-small" style={{ marginBottom: '8px', minHeight: '45px' }}>{plan.description}</p>
-              
-              <div style={{ marginTop: '-12px', paddingTop: '0px' }}>
-                <div className="price">
-                  <span className="price-currency" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>₹</span>
-                  <span className="price-amount" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>{plan.price}</span>
-                  <span className="price-period" style={plan.popular ? { color: 'var(--brand-primary)' } : {}}>{plan.name === 'Day Pass' ? '/day' : '/month'}</span>
-                </div>
-                <p className="price-gst">plus GST</p>
+
+                <ul className="features-list">
+                  {plan.features.map((feature, idx) => (
+                    <li key={idx} className="feature-item">
+                      <Check size={18} style={{ color: isOrange ? 'var(--text-inverse)' : 'var(--brand-primary)', marginRight: '8px', flexShrink: 0, marginTop: '3px' }} />
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <button onClick={scrollToContact} className={isOrange ? 'btn-card-orange' : 'btn-card-blue'}>
+                  GET STARTED
+                </button>
               </div>
-
-              <ul className="features-list">
-                {plan.features.map((feature, idx) => (
-                  <li key={idx} className="feature-item">
-                    <Check size={18} style={{ color: 'var(--brand-primary)', marginRight: '8px', flexShrink: 0, marginTop: '3px' }} />
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <button onClick={scrollToContact} className={plan.popular ? 'btn-primary' : 'btn-secondary'}>
-                GET STARTED
-              </button>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

@@ -595,9 +595,108 @@ body {
   border-color: var(--brand-primary);
 }
 
-.pricing-card.popular {
+.pricing-card.card-orange {
+  background: var(--brand-primary);
   border: 2px solid var(--brand-primary);
-  background: var(--border-medium);
+  color: var(--text-inverse);
+}
+
+.pricing-card.card-orange .heading-4,
+.pricing-card.card-orange .body-small,
+.pricing-card.card-orange .price-currency,
+.pricing-card.card-orange .price-amount,
+.pricing-card.card-orange .price-period,
+.pricing-card.card-orange .price-gst,
+.pricing-card.card-orange .feature-item {
+  color: var(--text-inverse);
+}
+
+.pricing-card.card-orange .popular-badge {
+  background: var(--text-inverse);
+  color: var(--brand-primary);
+}
+
+.pricing-card.card-orange:hover {
+  border-color: var(--brand-primary-active);
+  background: var(--brand-primary-hover);
+}
+
+.pricing-card.card-blue {
+  background: var(--brand-secondary);
+  border: 2px solid var(--brand-secondary);
+  color: var(--neutral-white);
+}
+
+.pricing-card.card-blue .heading-4,
+.pricing-card.card-blue .body-small,
+.pricing-card.card-blue .price-currency,
+.pricing-card.card-blue .price-amount,
+.pricing-card.card-blue .price-period,
+.pricing-card.card-blue .price-gst,
+.pricing-card.card-blue .feature-item {
+  color: var(--neutral-white);
+}
+
+.pricing-card.card-blue .popular-badge {
+  background: var(--neutral-white);
+  color: var(--brand-secondary);
+}
+
+.pricing-card.card-blue:hover {
+  border-color: var(--brand-secondary-active);
+  background: var(--brand-secondary-hover);
+}
+
+.btn-card-orange {
+  background: var(--text-inverse);
+  color: var(--brand-primary);
+  border: none;
+  border-radius: 10rem;
+  padding: 1em 1.5em;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  min-height: 48px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.btn-card-orange:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
+.btn-card-blue {
+  background: var(--neutral-white);
+  color: var(--brand-secondary);
+  border: none;
+  border-radius: 10rem;
+  padding: 1em 1.5em;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  min-height: 48px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.btn-card-blue:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
 }
 
 .popular-badge {
