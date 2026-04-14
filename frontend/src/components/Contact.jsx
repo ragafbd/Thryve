@@ -2,8 +2,6 @@ import React from 'react';
 import { MapPin, Mail, Phone, Clock, MessageCircle } from 'lucide-react';
 
 const Contact = () => {
-  // Form functionality removed - using direct WhatsApp and email links instead
-
   return (
     <section id="contact" className="contact-section">
       <div className="container">
@@ -19,9 +17,9 @@ const Contact = () => {
               <MapPin size={24} style={{ color: 'var(--brand-primary)', flexShrink: 0 }} />
               <div>
                 <p className="body-medium">First Floor, Plot No. 3, Next to Neelam Chowk Metro Station,</p>
-                <p className="body-medium">18/3, Mathura Road, Faridabad, Haryana - 121 007</p>
+                <p className="body-medium">18/1, Mathura Road, Faridabad, Haryana - 121 007</p>
                 <a 
-                  href="https://maps.app.goo.gl/4MRQXxVpTZCJLyfv6" 
+                  href="https://maps.app.goo.gl/UtsVHYpUQiSSqbFR9" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn-primary"
@@ -43,9 +41,12 @@ const Contact = () => {
             <div className="contact-item">
               <Phone size={24} style={{ color: 'var(--brand-primary)', flexShrink: 0 }} />
               <div>
-                <a href="tel:+919810699793" className="link-text">+91 98 106 99793</a>
-                <br />
-                <a href="tel:+918076732167" className="link-text">+91 80 767 32167</a>
+                <p className="body-medium">
+                  <a href="tel:+919810699793" className="link-text" style={{ textDecoration: 'none', color: 'inherit' }}>+91 98 106 99793</a>
+                </p>
+                <p className="body-medium">
+                  <a href="tel:+918076732167" className="link-text" style={{ textDecoration: 'none', color: 'inherit' }}>+91 80 767 32167</a>
+                </p>
               </div>
             </div>
 
@@ -55,8 +56,6 @@ const Contact = () => {
                 <p className="body-medium">Mon - Sat: 9:00 AM - 9:00 PM</p>
               </div>
             </div>
-
-            {/* Contact image removed */}
           </div>
 
           <div className="contact-form-wrapper">
@@ -66,26 +65,38 @@ const Contact = () => {
                 Reach out to us directly via WhatsApp or Email
               </p>
               
-              <div className="contact-buttons">
+              <div className="contact-buttons" style={{ display: 'flex', flexDirection: 'column', gap: '20px', width: '100%' }}>
                 <a 
                   href="https://wa.me/919810316151?text=Hi, I'm interested in Thryve Coworking space and would like to schedule a visit" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn-primary"
-                  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '16px 32px', marginBottom: '16px', textTransform: 'none', minWidth: '200px' }}
+                  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none', width: '100%', flexShrink: 0 }}
+                  data-testid="whatsapp-btn"
                 >
-                  <MessageCircle size={20} />
-                  WhatsApp Us
+                  <MessageCircle size={20} style={{ flexShrink: 0 }} />
+                  <span>WhatsApp Us</span>
                 </a>
                 
-                <a 
-                  href="mailto:contact@thryvecoworking.in?subject=Inquiry about Thryve Coworking&body=Hi, I'm interested in learning more about your coworking space." 
+                <button 
+                  type="button"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const email = 'contact@thryvecoworking.in';
+                    const mailtoLink = `mailto:${email}`;
+                    const mailWindow = window.open(mailtoLink, '_self');
+                    if (!mailWindow || mailWindow.closed || typeof mailWindow.closed === 'undefined') {
+                      window.location.href = mailtoLink;
+                    }
+                  }}
                   className="btn-secondary"
-                  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none', minWidth: '200px' }}
+                  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '16px 32px', textTransform: 'none', width: '100%', flexShrink: 0, textDecoration: 'none', border: '2px solid var(--brand-secondary)' }}
+                  data-testid="email-btn"
                 >
-                  <Mail size={20} />
-                  Email Us
-                </a>
+                  <Mail size={20} style={{ flexShrink: 0 }} />
+                  <span>Email Us</span>
+                </button>
               </div>
             </div>
           </div>

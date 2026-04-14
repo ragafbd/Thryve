@@ -15,17 +15,17 @@ const About = () => {
           <div className="about-text">
             <h2 className="heading-2" style={{ color: 'var(--brand-primary)' }}>ABOUT THRYVE</h2>
             <p className="body-medium" style={{ marginTop: '24px', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
-              Located in the heart of Faridabad, just 2 minutes away from Mathura Road and Neelam Chowk Metro Station, Thryve Coworking offers a vibrant community workspace designed to fuel productivity and collaboration.
+              Located in the heart of Faridabad, just 2 minutes away from Neelam Chowk Metro Station and Mathura Road, Thryve Coworking offers a vibrant shared office space and flexible workspace designed to fuel productivity and collaboration. Our co-working space is the ideal commercial office for rent for businesses of all sizes.
             </p>
             <p className="body-medium" style={{ marginTop: '16px', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
-              Our modern facility combines comfort, functionality, and affordability to create the perfect environment for your business to thrive.
+              Our modern facility combines comfort, functionality, and affordability to create the perfect environment for your business to thrive. Whether you need a hot desk, dedicated workspace, or private office space near Neelam Chowk, we have the right solution for you.
             </p>
           </div>
 
           <div className="about-image">
             <img 
-              src="https://images.unsplash.com/photo-1556565681-306458ef93cd?w=800&q=80" 
-              alt="Modern Workspace"
+              src="https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/6dav11o1_WhatsApp%20Image%202026-01-02%20at%2011.07.30%20AM%20%283%29.jpeg" 
+              alt="Private meeting room at Thryve Coworking Faridabad with ergonomic chairs, wooden conference table, and glass walls for professional business meetings"
               className="workspace-image"
             />
           </div>

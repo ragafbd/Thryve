@@ -1,12 +1,13 @@
 import React from 'react';
-import { Wifi, Users, Coffee, Gamepad2, Droplets, Clock, Printer, Wind, Zap, Car, Armchair, Video, MapPin, Mail, Sparkles } from 'lucide-react';
+import { Wifi, Users, Coffee, Gamepad2, Droplets, Clock, Printer, Wind, Zap, Car, Armchair, Video, MapPin, Mail, Sparkles, Mic } from 'lucide-react';
 
 const Amenities = () => {
   const amenities = [
     { icon: Wifi, title: 'High-Speed WiFi', description: 'Ultra-fast fiber internet' },
     { icon: Users, title: 'Meeting Rooms', description: 'Fully equipped spaces to focus and collaborate' },
     { icon: Video, title: 'Video Conferencing', description: 'Professional video call setup' },
-    { icon: Coffee, title: 'Café & Refreshments', description: 'Complimentary tea & coffee' },
+    { icon: Mic, title: 'Podcast & Recording Studio', description: 'Space to make engaging content' },
+    { icon: Coffee, title: 'Cafe & Refreshments', description: 'Complimentary tea & coffee' },
     { icon: Gamepad2, title: 'Table Tennis & Foosball', description: 'Fun recreation area' },
     { icon: Droplets, title: 'Spacious Washrooms', description: 'Clean & modern facilities' },
     { icon: Clock, title: '9 AM to 9 PM Access', description: '6 days a week' },
@@ -44,9 +45,9 @@ const Amenities = () => {
 
         <div className="amenities-image-section">
           <img 
-            src="https://images.pexels.com/photos/7688173/pexels-photo-7688173.jpeg?w=1200&q=80" 
-            alt="Amenities at Thryve"
-            className="amenities-showcase"
+            src="https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/80zjt8s0_WhatsApp%20Image%202026-01-02%20at%2011.07.30%20AM.jpeg" 
+            alt="Thryve Coworking branded signage and entrance at our premium flexible workspace in Faridabad, located near Neelam Chowk Metro Station on Mathura Road"
+            style={{ width: '100%', height: '400px', objectFit: 'cover', objectPosition: 'center 35%', borderRadius: '12px' }}
           />
         </div>
       </div>

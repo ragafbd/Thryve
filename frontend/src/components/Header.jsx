@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,24 +23,45 @@ const Header = () => {
     }
   };
 
+  const handleNavigation = (path, sectionId = null) => {
+    setIsMobileMenuOpen(false);
+    if (location.pathname === '/' && sectionId) {
+      scrollToSection(sectionId);
+    }
+  };
+
   return (
-    <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
+    <header className={`header ${isScrolled ? 'scrolled' : ''}`} data-testid="header">
       <div className="container header-content">
-        <div className="logo">
+        <Link to="/" className="logo" style={{ textDecoration: 'none' }}>
           <span className="logo-text">THRYVE</span>
-        </div>
+        </Link>
 
         <nav className={`nav-menu ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
-          <button onClick={() => scrollToSection('about')} className="nav-link">About</button>
-          <button onClick={() => scrollToSection('amenities')} className="nav-link">Amenities</button>
-          <button onClick={() => scrollToSection('pricing')} className="nav-link">Pricing</button>
-          <button onClick={() => scrollToSection('team')} className="nav-link">Team</button>
-          <button onClick={() => scrollToSection('contact')} className="nav-link">Contact</button>
+          {location.pathname === '/' ? (
+            <>
+              <button onClick={() => scrollToSection('about')} className="nav-link" data-testid="nav-about">About</button>
+              <button onClick={() => scrollToSection('amenities')} className="nav-link" data-testid="nav-amenities">Amenities</button>
+              <button onClick={() => scrollToSection('pricing')} className="nav-link" data-testid="nav-pricing">Pricing</button>
+              <button onClick={() => scrollToSection('gallery')} className="nav-link" data-testid="nav-gallery">Gallery</button>
+              <button onClick={() => scrollToSection('team')} className="nav-link" data-testid="nav-team">Team</button>
+              <button onClick={() => scrollToSection('contact')} className="nav-link" data-testid="nav-contact">Contact</button>
+            </>
+          ) : (
+            <>
+              <Link to="/" className="nav-link" onClick={() => handleNavigation('/')}>Home</Link>
+              <Link to="/amenities" className="nav-link" onClick={() => handleNavigation('/amenities')}>Amenities</Link>
+              <Link to="/pricing" className="nav-link" onClick={() => handleNavigation('/pricing')}>Pricing</Link>
+              <Link to="/gallery" className="nav-link" onClick={() => handleNavigation('/gallery')}>Gallery</Link>
+              <Link to="/contact" className="nav-link" onClick={() => handleNavigation('/contact')}>Contact</Link>
+            </>
+          )}
         </nav>
 
         <button 
           className="mobile-menu-toggle"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          data-testid="mobile-menu-toggle"
         >
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>

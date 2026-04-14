@@ -12,8 +12,8 @@ const Hero = () => {
     <section className="hero-section">
       <div className="hero-background">
         <img 
-          src="https://images.unsplash.com/photo-1626187853752-898f59dc180e?w=1920&q=80" 
-          alt="Thryve Coworking Space"
+          src="https://customer-assets.emergentagent.com/job_cowork-upgrade/artifacts/fxybzhhg_WhatsApp%20Image%202026-01-02%20at%2011.07.30%20AM%20%284%29.jpeg" 
+          alt="Thryve Coworking space in Faridabad featuring modern lounge area with vibrant seating, dedicated workstations, and industrial design near Neelam Chowk Metro Station"
           className="hero-image"
         />
         <div className="hero-overlay"></div>
@@ -21,15 +21,18 @@ const Hero = () => {
 
       <div className="container">
         <div className="hero-content">
-          <h1 className="hero-title">WHERE IDEAS MEET INNOVATION</h1>
+          <h1 className="hero-title">Premium Coworking Space in Faridabad</h1>
+          <p className="hero-subtitle" style={{ fontSize: '1.3rem', marginTop: '16px', fontWeight: 500 }}>
+            Where Ideas Meet Innovation
+          </p>
           <p className="hero-subtitle">
-            Premium coworking space in Faridabad designed for entrepreneurs, startups, and professionals.
+            Flexible workspace and shared office space near Neelam Chowk Metro Station. Premium co-working space designed for entrepreneurs, startups, and professionals seeking commercial office for rent in Faridabad.
           </p>
           <div className="hero-cta">
-            <button onClick={() => scrollToSection('contact')} className="btn-primary">
+            <button onClick={() => scrollToSection('contact')} className="btn-primary" data-testid="hero-get-started">
               GET STARTED
             </button>
-            <button onClick={() => scrollToSection('pricing')} className="btn-secondary">
+            <button onClick={() => scrollToSection('pricing')} className="btn-secondary" data-testid="hero-view-pricing">
               VIEW PRICING
             </button>
           </div>
