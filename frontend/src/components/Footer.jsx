@@ -1,8 +1,34 @@
 import React from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Instagram } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleSectionClick = (sectionId) => {
+    if (location.pathname === '/') {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      navigate('/');
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 300);
+    }
+  };
+
+  const handleHomeClick = () => {
+    if (location.pathname === '/') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
 
   return (
     <footer className="footer" data-testid="footer">
@@ -15,13 +41,13 @@ const Footer = () => {
           <div className="footer-column">
             <h4 className="heading-6" style={{ marginBottom: '16px' }}>Quick Links</h4>
             <ul className="footer-links">
-              <li><a href="/" className="footer-link" data-testid="footer-link-home">Home</a></li>
-              <li><a href="#about" className="footer-link" data-testid="footer-link-about">About Us</a></li>
-              <li><a href="/amenities" className="footer-link" data-testid="footer-link-amenities">Amenities</a></li>
-              <li><a href="/pricing" className="footer-link" data-testid="footer-link-pricing">Pricing Plans</a></li>
-              <li><a href="/gallery" className="footer-link" data-testid="footer-link-gallery">Gallery</a></li>
-              <li><a href="#team" className="footer-link" data-testid="footer-link-team">Our Team</a></li>
-              <li><a href="/contact" className="footer-link" data-testid="footer-link-contact">Contact Us</a></li>
+              <li><Link to="/" className="footer-link" onClick={handleHomeClick} data-testid="footer-link-home">Home</Link></li>
+              <li><button onClick={() => handleSectionClick('about')} className="footer-link" data-testid="footer-link-about">About Us</button></li>
+              <li><Link to="/amenities" className="footer-link" data-testid="footer-link-amenities">Amenities</Link></li>
+              <li><Link to="/pricing" className="footer-link" data-testid="footer-link-pricing">Pricing Plans</Link></li>
+              <li><Link to="/gallery" className="footer-link" data-testid="footer-link-gallery">Gallery</Link></li>
+              <li><button onClick={() => handleSectionClick('team')} className="footer-link" data-testid="footer-link-team">Our Team</button></li>
+              <li><Link to="/contact" className="footer-link" data-testid="footer-link-contact">Contact Us</Link></li>
               <li><a href="https://thryvecoworking.medium.com" className="footer-link" target="_blank" rel="noopener noreferrer" data-testid="footer-link-blog">Blog</a></li>
               <li><a href="/sitemap.xml" className="footer-link" target="_blank" rel="noopener noreferrer" data-testid="footer-link-sitemap">Sitemap</a></li>
             </ul>
