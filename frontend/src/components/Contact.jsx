@@ -60,7 +60,7 @@ const Contact = () => {
             <div className="contact-map" style={{ marginTop: '32px', borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-light)' }} data-testid="contact-map">
               <iframe
                 title="Thryve Coworking Faridabad Location"
-                src="https://maps.google.com/maps?q=Thryve+Coworking+Neelam+Chowk+Faridabad&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=28.398500,77.312778&t=&z=17&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="280"
                 style={{ border: 0 }}
