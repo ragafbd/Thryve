@@ -4,6 +4,18 @@ import { Check, Star } from 'lucide-react';
 const Pricing = () => {
   const plans = [
     {
+      name: 'Day Pass',
+      price: '500',
+      description: 'Drop in for a day and experience our coworking space',
+      features: [
+        'Single day access',
+        'High-speed WiFi',
+        'Access to amenities',
+        'Complimentary tea & coffee'
+      ],
+      popular: false
+    },
+    {
       name: 'Hot Desk',
       price: '6,000',
       description: 'Flexible seating option perfect for freelancers and part-time workers',
@@ -109,7 +121,7 @@ const Pricing = () => {
                 <div className="price">
                   <span className="price-currency" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>₹</span>
                   <span className="price-amount" style={plan.popular ? { color: 'var(--brand-secondary)' } : {}}>{plan.price}</span>
-                  <span className="price-period" style={plan.popular ? { color: 'var(--brand-primary)' } : {}}>/month</span>
+                  <span className="price-period" style={plan.popular ? { color: 'var(--brand-primary)' } : {}}>{plan.name === 'Day Pass' ? '/day' : '/month'}</span>
                 </div>
                 <p className="price-gst">plus GST</p>
               </div>
