@@ -56,6 +56,19 @@ const Contact = () => {
                 <p className="body-medium">Mon - Sat: 9:00 AM - 9:00 PM</p>
               </div>
             </div>
+
+            <div className="contact-map" style={{ marginTop: '32px', borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-light)' }} data-testid="contact-map">
+              <iframe
+                title="Thryve Coworking Faridabad Location"
+                src="https://maps.google.com/maps?q=Thryve+Coworking+Neelam+Chowk+Faridabad&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="280"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
           </div>
 
           <div className="contact-form-wrapper">
