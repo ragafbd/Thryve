@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import './App.css';
@@ -13,6 +13,17 @@ import { Toaster } from './components/ui/sonner';
 function AppContent() {
   const [showIntro, setShowIntro] = useState(true);
   const location = useLocation();
+
+  // Disable browser scroll restoration and scroll to top on route change
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   const handleIntroComplete = () => {
     setShowIntro(false);
