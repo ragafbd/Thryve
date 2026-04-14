@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Instagram } from 'lucide-react';
 
 const Footer = () => {
@@ -20,13 +20,15 @@ const Footer = () => {
         if (element) {
           element.scrollIntoView({ behavior: 'smooth' });
         }
-      }, 300);
+      }, 500);
     }
   };
 
   const handleHomeClick = () => {
     if (location.pathname === '/') {
       window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      navigate('/');
     }
   };
 
@@ -41,13 +43,13 @@ const Footer = () => {
           <div className="footer-column">
             <h4 className="heading-6" style={{ marginBottom: '16px' }}>Quick Links</h4>
             <ul className="footer-links">
-              <li><Link to="/" className="footer-link" onClick={handleHomeClick} data-testid="footer-link-home">Home</Link></li>
+              <li><button onClick={handleHomeClick} className="footer-link" data-testid="footer-link-home">Home</button></li>
               <li><button onClick={() => handleSectionClick('about')} className="footer-link" data-testid="footer-link-about">About Us</button></li>
-              <li><Link to="/amenities" className="footer-link" data-testid="footer-link-amenities">Amenities</Link></li>
-              <li><Link to="/pricing" className="footer-link" data-testid="footer-link-pricing">Pricing Plans</Link></li>
-              <li><Link to="/gallery" className="footer-link" data-testid="footer-link-gallery">Gallery</Link></li>
+              <li><button onClick={() => handleSectionClick('amenities')} className="footer-link" data-testid="footer-link-amenities">Amenities</button></li>
+              <li><button onClick={() => handleSectionClick('pricing')} className="footer-link" data-testid="footer-link-pricing">Pricing Plans</button></li>
+              <li><button onClick={() => handleSectionClick('gallery')} className="footer-link" data-testid="footer-link-gallery">Gallery</button></li>
               <li><button onClick={() => handleSectionClick('team')} className="footer-link" data-testid="footer-link-team">Our Team</button></li>
-              <li><Link to="/contact" className="footer-link" data-testid="footer-link-contact">Contact Us</Link></li>
+              <li><button onClick={() => handleSectionClick('contact')} className="footer-link" data-testid="footer-link-contact">Contact Us</button></li>
               <li><a href="https://thryvecoworking.medium.com" className="footer-link" target="_blank" rel="noopener noreferrer" data-testid="footer-link-blog">Blog</a></li>
               <li><a href="/sitemap.xml" className="footer-link" target="_blank" rel="noopener noreferrer" data-testid="footer-link-sitemap">Sitemap</a></li>
             </ul>
