@@ -609,7 +609,7 @@ body {
 }
 
 .pricing-card.card-orange .price-period {
-  color: var(--brand-primary);
+  color: var(--brand-secondary);
 }
 
 .pricing-card.card-orange .popular-badge {
@@ -632,7 +632,7 @@ body {
 }
 
 .pricing-card.card-blue .price-period {
-  color: var(--brand-secondary);
+  color: var(--brand-primary);
 }
 
 .pricing-card.card-blue .popular-badge {
