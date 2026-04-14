@@ -575,13 +575,13 @@ body {
 
 .pricing-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
 }
 
 .pricing-card {
   background: var(--bg-card);
-  padding: 32px 40px;
+  padding: 28px 24px;
   border-radius: 8px;
   border: 1px solid var(--border-light);
   position: relative;
@@ -676,6 +676,12 @@ body {
   .pricing-grid {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .pricing-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

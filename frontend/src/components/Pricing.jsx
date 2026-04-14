@@ -30,11 +30,38 @@ const Pricing = () => {
       popular: true
     },
     {
-      name: 'Private Office',
-      price: '42,000',
-      description: 'Fully furnished private office space for teams and businesses',
+      name: '2 Seater Cabin',
+      price: '20,000',
+      description: 'Private cabin for duo teams and small partnerships',
       features: [
-        'Private lockable office',
+        'Private lockable cabin',
+        'High-speed WiFi and LAN',
+        'Meeting room access',
+        'Mail handling',
+        'All amenities included'
+      ],
+      popular: false
+    },
+    {
+      name: '4 Seater Cabin',
+      price: '36,000',
+      description: 'Spacious cabin ideal for growing teams and startups',
+      features: [
+        'Private lockable cabin',
+        'High-speed WiFi and LAN',
+        'Customizable space',
+        'Meeting room access',
+        'Priority support',
+        'All amenities included'
+      ],
+      popular: false
+    },
+    {
+      name: '6 Seater Cabin',
+      price: '48,000',
+      description: 'Large private cabin for established teams and businesses',
+      features: [
+        'Private lockable cabin',
         'High-speed WiFi and LAN',
         'Customizable space',
         'Dedicated phone line',
